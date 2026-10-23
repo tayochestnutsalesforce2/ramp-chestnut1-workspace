@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "snap-poc-1",
+  "createdAt": "2026-10-23T00:00:00Z",
+  "immutable": true,
+  "fingerprintAlgorithm": "sha256",
+  "fingerprint": "77ea1e5302a958e6e73f5b73a282aecfa8ab5bfc5ec4872dbe7bd16fe884a7e2",
+  "metadata": {
+    "synthetic": true
+  },
+  "sourceDataGate": {
+    "schemaVersion": 1,
+    "gate": "SOURCE DATA",
+    "status": "passed",
+    "coveragePercentage": 100
+  },
+  "artifacts": [
+    {
+      "path": "snapshot/data/Account.json",
+      "sha256": "092be773ba833f424fb6533b06327ca583448175704220cf09dd004a5286ff6c",
+      "size": 370
+    },
+    {
+      "path": "snapshot/data/Product2.json",
+      "sha256": "760ba627e9b9f122b491233d8b32fadba8366eeb3a8d88297bb46ba23a2383c3",
+      "size": 596
+    },
+    {
+      "path": "snapshot/data/Contract.json",
+      "sha256": "61c280167176b22ca54859c4d0f477abab3462a52a9e95dead9858aea3988ad2",
+      "size": 332
+    },
+    {
+      "path": "snapshot/data/SBQQ__Subscription__c.json",
+      "sha256": "9be36cfb6da6a5adff3cad2f73379240f9b071108cb6f58892774af749d601fa",
+      "size": 1075
+    }
+  ]
+}

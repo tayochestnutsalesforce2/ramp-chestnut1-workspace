@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "customerKey": "chestnut-ramp1-poc",
+  "pinType": "source-snapshot",
+  "artifactId": "snap-poc-1",
+  "sha256": "77ea1e5302a958e6e73f5b73a282aecfa8ab5bfc5ec4872dbe7bd16fe884a7e2",
+  "pinnedAt": "2026-10-23T00:00:00Z",
+  "pinnedBy": "RAMP storage POC",
+  "reference": "snapshots/snap-poc-1/snapshot-manifest.json"
+}

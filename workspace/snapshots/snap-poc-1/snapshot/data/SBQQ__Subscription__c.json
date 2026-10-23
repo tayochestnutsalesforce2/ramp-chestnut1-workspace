@@ -1,0 +1,40 @@
+{
+  "totalSize": 5,
+  "records": [
+    {
+      "Id": "a1B000000000001AAA",
+      "SBQQ__Contract__c": "800000000000001AAA",
+      "SBQQ__Product__c": "01t000000000001AAA",
+      "SBQQ__Quantity__c": 1,
+      "SBQQ__NetPrice__c": 100.0
+    },
+    {
+      "Id": "a1B000000000002AAA",
+      "SBQQ__Contract__c": "800000000000002AAA",
+      "SBQQ__Product__c": "01t000000000002AAA",
+      "SBQQ__Quantity__c": 2,
+      "SBQQ__NetPrice__c": 200.0
+    },
+    {
+      "Id": "a1B000000000003AAA",
+      "SBQQ__Contract__c": "800000000000001AAA",
+      "SBQQ__Product__c": "01t000000000003AAA",
+      "SBQQ__Quantity__c": 3,
+      "SBQQ__NetPrice__c": 300.0
+    },
+    {
+      "Id": "a1B000000000004AAA",
+      "SBQQ__Contract__c": "800000000000002AAA",
+      "SBQQ__Product__c": "01t000000000004AAA",
+      "SBQQ__Quantity__c": 4,
+      "SBQQ__NetPrice__c": 400.0
+    },
+    {
+      "Id": "a1B000000000005AAA",
+      "SBQQ__Contract__c": "800000000000001AAA",
+      "SBQQ__Product__c": "01t000000000001AAA",
+      "SBQQ__Quantity__c": 5,
+      "SBQQ__NetPrice__c": 500.0
+    }
+  ]
+}

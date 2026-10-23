@@ -1,0 +1,11 @@
+{
+  "customerKey": "chestnut-ramp1-poc",
+  "synthetic": true,
+  "counts": {
+    "Account": 3,
+    "Product2": 4,
+    "Contract": 2,
+    "SBQQ__Subscription__c": 5
+  },
+  "snapshotFingerprint": "77ea1e5302a958e6e73f5b73a282aecfa8ab5bfc5ec4872dbe7bd16fe884a7e2"
+}

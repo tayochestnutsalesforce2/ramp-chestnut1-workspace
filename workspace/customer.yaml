@@ -1,0 +1,26 @@
+schemaVersion: 1
+customerKey: chestnut-ramp1-poc
+displayName: Chestnut Ramp 1 (synthetic POC)
+workspaceAliases: []
+orgProfiles: {}
+defaultPins: {}
+dataPolicy:
+  syntheticData: true
+  customerDataInGit: true
+  note: Synthetic fixture data only. Stored in a public POC repository; never add
+    real customer data.
+storage:
+  mode: git
+  remote:
+    url: https://github.com/tayochestnutsalesforce2/ramp-chestnut1-workspace.git
+    owner: tayochestnutsalesforce2
+    repo: ramp-chestnut1-workspace
+    repoId: 1431568606
+  branch: ramp-project-main
+  baseBranch: main
+  visibility: public
+  poc:
+    enabled: true
+    syntheticDataOnly: true
+    publicAllowed: true
+  credentialEnv: RAMP_GIT_TOKEN

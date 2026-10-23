@@ -1,0 +1,17 @@
+{
+  "totalSize": 2,
+  "records": [
+    {
+      "Id": "800000000000001AAA",
+      "AccountId": "001000000000001AAA",
+      "StartDate": "2026-01-01",
+      "ContractTerm": 12
+    },
+    {
+      "Id": "800000000000002AAA",
+      "AccountId": "001000000000002AAA",
+      "StartDate": "2026-01-01",
+      "ContractTerm": 12
+    }
+  ]
+}
