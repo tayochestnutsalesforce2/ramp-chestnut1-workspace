@@ -1,0 +1,11 @@
+apiName,calculated,dataType,defaultValue,description,developerName,encrypted,externalId,formulaBody,inlineHelpText,label,length,namespace,nillable,objectApiName,picklistValues,precision,queryable,referenceTo,relationshipName,required,scale,scope,unique,updateable
+Id,False,id,,,Id,False,False,,,,,,False,EmailTemplate,[],,True,[],,True,,standard,False,False
+Name,False,string,,,Name,False,False,,,,,,True,EmailTemplate,[],,True,[],,False,,standard,False,False
+Id,False,id,,,Id,False,False,,,,,,False,Pricebook2,[],,True,[],,True,,standard,False,False
+Name,False,string,,,Name,False,False,,,,,,True,Pricebook2,[],,True,[],,False,,standard,False,False
+Id,False,id,,,Id,False,False,,,,,,False,PricebookEntry,[],,True,[],,True,,standard,False,False
+Name,False,string,,,Name,False,False,,,,,,True,PricebookEntry,[],,True,[],,False,,standard,False,False
+Id,False,id,,,Id,False,False,,,,,,False,Product2,[],,True,[],,True,,standard,False,False
+Name,False,string,,,Name,False,False,,,,,,True,Product2,[],,True,[],,False,,standard,False,False
+Id,False,id,,,Id,False,False,,,,,,False,RecordType,[],,True,[],,True,,standard,False,False
+Name,False,string,,,Name,False,False,,,,,,True,RecordType,[],,True,[],,False,,standard,False,False

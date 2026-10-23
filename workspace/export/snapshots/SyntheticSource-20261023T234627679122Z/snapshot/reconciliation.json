@@ -1,0 +1,415 @@
+{
+  "artifacts": [
+    {
+      "expectedCount": 1,
+      "exportedCount": 1,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "ApexClass",
+      "path": "code/apex/classes.json",
+      "postExportOrgCount": 4,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 1,
+      "exportedCount": 1,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "ApexTrigger",
+      "path": "code/apex/triggers.json",
+      "postExportOrgCount": 1,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 0,
+      "exportedCount": 0,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "AuraDefinitionBundle",
+      "path": "code/aura/bundles.json",
+      "postExportOrgCount": 0,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 0,
+      "exportedCount": 0,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "AuraDefinition",
+      "path": "code/aura/index.json",
+      "postExportOrgCount": 0,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 1,
+      "exportedCount": 1,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "FlowDefinition",
+      "path": "code/flows/definition-index.json",
+      "postExportOrgCount": 1,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 2,
+      "exportedCount": 2,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "Flow",
+      "path": "code/flows/definitions.json",
+      "postExportOrgCount": 2,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 2,
+      "exportedCount": 2,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "Flow",
+      "path": "code/flows/index.json",
+      "postExportOrgCount": 2,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 1,
+      "exportedCount": 1,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "LightningComponentBundle",
+      "path": "code/lwc/bundles.json",
+      "postExportOrgCount": 1,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 1,
+      "exportedCount": 1,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "LightningComponentResource",
+      "path": "code/lwc/index.json",
+      "postExportOrgCount": 3,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 0,
+      "exportedCount": 0,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "ApexComponent",
+      "path": "code/visualforce/components.json",
+      "postExportOrgCount": 0,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 0,
+      "exportedCount": 0,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "ApexPage",
+      "path": "code/visualforce/pages.json",
+      "postExportOrgCount": 0,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 1,
+      "exportedCount": 1,
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "objectApiName": "EmailTemplate",
+      "path": "data/approvals/email-templates.json",
+      "postExportOrgCount": 1,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 1,
+      "exportedCount": 1,
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "objectApiName": "Product2",
+      "path": "data/bundles/products.json",
+      "postExportOrgCount": 1,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 1,
+      "exportedCount": 1,
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "objectApiName": "PricebookEntry",
+      "path": "data/pricing/pricebook-entries.json",
+      "postExportOrgCount": 1,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 1,
+      "exportedCount": 1,
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "objectApiName": "Pricebook2",
+      "path": "data/pricing/pricebooks.json",
+      "postExportOrgCount": 1,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 0,
+      "exportedCount": 0,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "ExternalString",
+      "path": "metadata/custom-labels.json",
+      "postExportOrgCount": 0,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 0,
+      "exportedCount": 0,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "CustomObject",
+      "path": "metadata/custom-object-definitions.json",
+      "postExportOrgCount": 0,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 1,
+      "exportedCount": 1,
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "objectApiName": "RecordType",
+      "path": "metadata/record-types.json",
+      "postExportOrgCount": 1,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 0,
+      "exportedCount": 0,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "StaticResource",
+      "path": "metadata/static-resources.json",
+      "postExportOrgCount": 0,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": 0,
+      "exportedCount": 0,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "ValidationRule",
+      "path": "metadata/validation-rules.json",
+      "postExportOrgCount": 0,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": null,
+      "exportedCount": 1,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "",
+      "path": "org/identity.json",
+      "postExportOrgCount": null,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": null,
+      "exportedCount": 1,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "",
+      "path": "org/packages.json",
+      "postExportOrgCount": null,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": null,
+      "exportedCount": 1,
+      "formats": [
+        "csv"
+      ],
+      "objectApiName": "",
+      "path": "org/packages.csv",
+      "postExportOrgCount": null,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": null,
+      "exportedCount": 1,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "",
+      "path": "schema/objects.json",
+      "postExportOrgCount": null,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": null,
+      "exportedCount": 1,
+      "formats": [
+        "csv"
+      ],
+      "objectApiName": "",
+      "path": "schema/objects.csv",
+      "postExportOrgCount": null,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": null,
+      "exportedCount": 1,
+      "formats": [
+        "json"
+      ],
+      "objectApiName": "",
+      "path": "schema/fields.json",
+      "postExportOrgCount": null,
+      "reasons": [],
+      "status": "complete"
+    },
+    {
+      "expectedCount": null,
+      "exportedCount": 1,
+      "formats": [
+        "csv"
+      ],
+      "objectApiName": "",
+      "path": "schema/fields.csv",
+      "postExportOrgCount": null,
+      "reasons": [],
+      "status": "complete"
+    }
+  ],
+  "contract": "cpq-source-inventory-v1",
+  "discoveryChecks": [
+    {
+      "name": "approvalIdentityResolution",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "customTypeDiscovery",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "entityInventory",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "fieldMetadata",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "installedPackages",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "managedNamespaceDiscovery",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "orgIdentity",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "postExportMetadataInventory",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "postExportRecordCounts",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "preExportMetadataInventory",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "preExportRecordCounts",
+      "observedStatus": "success",
+      "status": "complete"
+    },
+    {
+      "name": "salesforceCpqPackage",
+      "observedStatus": "success",
+      "status": "complete"
+    }
+  ],
+  "profile": "migration-build",
+  "schemaVersion": 1,
+  "status": "passed",
+  "summary": {
+    "completeArtifacts": 27,
+    "completeDiscoveryChecks": 12,
+    "contract": "cpq-source-inventory-v1",
+    "contractHash": "0d80319dad24141b45ab583b9dbb4f455ea47a6fd4c8c171a66c6a8a36778fb8",
+    "coveragePercentage": 100.0,
+    "discoveryFailures": [],
+    "expectedArtifacts": 27,
+    "expectedDiscoveryChecks": 12,
+    "failedArtifacts": 0,
+    "gate": "SOURCE DATA",
+    "schemaVersion": 1,
+    "status": "passed",
+    "waivedArtifacts": 0,
+    "waivedDiscoveryChecks": 0
+  }
+}

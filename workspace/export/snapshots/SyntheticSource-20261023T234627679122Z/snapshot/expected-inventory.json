@@ -1,0 +1,272 @@
+{
+  "artifacts": [
+    {
+      "category": "code",
+      "cpqScoped": true,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "cpq-referencing",
+      "objectApiName": "ApexClass",
+      "path": "code/apex/classes.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "code",
+      "cpqScoped": true,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "cpq-referencing",
+      "objectApiName": "ApexTrigger",
+      "path": "code/apex/triggers.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "code",
+      "cpqScoped": false,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "all",
+      "objectApiName": "AuraDefinitionBundle",
+      "path": "code/aura/bundles.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "code",
+      "cpqScoped": false,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "all",
+      "objectApiName": "AuraDefinition",
+      "path": "code/aura/index.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "automation",
+      "cpqScoped": false,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "all",
+      "objectApiName": "FlowDefinition",
+      "path": "code/flows/definition-index.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "automation",
+      "cpqScoped": true,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "cpq-referencing",
+      "objectApiName": "Flow",
+      "path": "code/flows/definitions.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "automation",
+      "cpqScoped": false,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "all",
+      "objectApiName": "Flow",
+      "path": "code/flows/index.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "code",
+      "cpqScoped": true,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "cpq-referencing",
+      "objectApiName": "LightningComponentBundle",
+      "path": "code/lwc/bundles.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "code",
+      "cpqScoped": true,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "cpq-referencing",
+      "objectApiName": "LightningComponentResource",
+      "path": "code/lwc/index.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "code",
+      "cpqScoped": false,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "all",
+      "objectApiName": "ApexComponent",
+      "path": "code/visualforce/components.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "code",
+      "cpqScoped": false,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "all",
+      "objectApiName": "ApexPage",
+      "path": "code/visualforce/pages.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "approval",
+      "cpqScoped": false,
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "inventoryScope": "queryable-records",
+      "objectApiName": "EmailTemplate",
+      "path": "data/approvals/email-templates.json",
+      "required": true,
+      "source": "data-api"
+    },
+    {
+      "category": "configuration",
+      "cpqScoped": false,
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "inventoryScope": "queryable-records",
+      "objectApiName": "Product2",
+      "path": "data/bundles/products.json",
+      "required": true,
+      "source": "data-api"
+    },
+    {
+      "category": "configuration",
+      "cpqScoped": false,
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "inventoryScope": "queryable-records",
+      "objectApiName": "PricebookEntry",
+      "path": "data/pricing/pricebook-entries.json",
+      "required": true,
+      "source": "data-api"
+    },
+    {
+      "category": "configuration",
+      "cpqScoped": false,
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "inventoryScope": "queryable-records",
+      "objectApiName": "Pricebook2",
+      "path": "data/pricing/pricebooks.json",
+      "required": true,
+      "source": "data-api"
+    },
+    {
+      "category": "metadata",
+      "cpqScoped": true,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "cpq-referencing",
+      "objectApiName": "ExternalString",
+      "path": "metadata/custom-labels.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "metadata",
+      "cpqScoped": true,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "cpq-referencing",
+      "objectApiName": "CustomObject",
+      "path": "metadata/custom-object-definitions.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "metadata",
+      "cpqScoped": false,
+      "formats": [
+        "json",
+        "csv"
+      ],
+      "inventoryScope": "queryable-records",
+      "objectApiName": "RecordType",
+      "path": "metadata/record-types.json",
+      "required": true,
+      "source": "data-api"
+    },
+    {
+      "category": "metadata",
+      "cpqScoped": false,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "all",
+      "objectApiName": "StaticResource",
+      "path": "metadata/static-resources.json",
+      "required": true,
+      "source": "tooling-api"
+    },
+    {
+      "category": "metadata",
+      "cpqScoped": false,
+      "formats": [
+        "json"
+      ],
+      "inventoryScope": "all",
+      "objectApiName": "ValidationRule",
+      "path": "metadata/validation-rules.json",
+      "required": true,
+      "source": "tooling-api"
+    }
+  ],
+  "contract": "cpq-source-inventory-v1",
+  "contractHash": "0d80319dad24141b45ab583b9dbb4f455ea47a6fd4c8c171a66c6a8a36778fb8",
+  "discovery": {
+    "customMetadataTypes": [],
+    "customSettings": [],
+    "dynamicallyDiscoveredArtifacts": 0,
+    "excludedManagedCustomMetadataTypes": [],
+    "excludedManagedCustomSettings": [],
+    "managedNamespaceObjects": [],
+    "registeredArtifacts": 95
+  },
+  "excludedObjects": [],
+  "foundationArtifacts": [
+    "org/identity.json",
+    "org/packages.json",
+    "org/packages.csv",
+    "schema/objects.json",
+    "schema/objects.csv",
+    "schema/fields.json",
+    "schema/fields.csv"
+  ],
+  "profile": "migration-build",
+  "schemaVersion": 1
+}

@@ -1,10 +1,19 @@
 {
-  "schemaVersion": 1,
+  "artifactId": "SyntheticSource-20261023T234627679122Z",
   "customerKey": "chestnut-ramp1-poc",
+  "metadata": {
+    "customizationEvidence": {
+      "level": "inventory",
+      "manifestSha256": "2a8504f4d99214b9a158a37ce59443488e65e64461f7be202b6e33682247f7d6"
+    },
+    "profile": "migration-build",
+    "sourceOrgAlias": "SyntheticSource",
+    "sourceOrgId": "00D000000000001AAA"
+  },
   "pinType": "source-snapshot",
-  "artifactId": "snap-poc-1",
-  "sha256": "77ea1e5302a958e6e73f5b73a282aecfa8ab5bfc5ec4872dbe7bd16fe884a7e2",
-  "pinnedAt": "2026-10-23T00:00:00Z",
-  "pinnedBy": "RAMP storage POC",
-  "reference": "snapshots/snap-poc-1/snapshot-manifest.json"
+  "pinnedAt": "2026-10-23T23:46:27Z",
+  "pinnedBy": "tchestnut",
+  "reference": "export/SyntheticSource-20261023T234627679122Z/source-reference.json",
+  "schemaVersion": 1,
+  "sha256": "d41424474192dea495cb863c9a899d3bc4aa195cb7ddbab14d2f6e4e0ac83f4a"
 }

@@ -1,0 +1,8 @@
+[
+  {
+    "Body": "public class QuoteController { @AuraEnabled public static List<SBQQ__Quote__c> get() { return null; } }",
+    "Id": "01p000000000003AAA",
+    "Name": "QuoteController",
+    "NamespacePrefix": null
+  }
+]

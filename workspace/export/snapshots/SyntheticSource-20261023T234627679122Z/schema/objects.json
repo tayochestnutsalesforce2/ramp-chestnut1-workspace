@@ -1,0 +1,725 @@
+{
+  "objects": [
+    {
+      "apiName": "Account",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "Asset",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "BillingPolicy",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "BillingTreatment",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "BillingTreatmentItem",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "ConsumptionRate",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "ConsumptionSchedule",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "Contract",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "EmailTemplate",
+      "available": true,
+      "durableId": "durable-EmailTemplate",
+      "label": "EmailTemplate",
+      "namespace": null,
+      "recordCount": 1
+    },
+    {
+      "apiName": "Opportunity",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "OpportunityLineItem",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "Order",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "OrderItem",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "Pricebook2",
+      "available": true,
+      "durableId": "durable-Pricebook2",
+      "label": "Pricebook2",
+      "namespace": null,
+      "recordCount": 1
+    },
+    {
+      "apiName": "PricebookEntry",
+      "available": true,
+      "durableId": "durable-PricebookEntry",
+      "label": "PricebookEntry",
+      "namespace": null,
+      "recordCount": 1
+    },
+    {
+      "apiName": "Product2",
+      "available": true,
+      "durableId": "durable-Product2",
+      "label": "Product2",
+      "namespace": null,
+      "recordCount": 1
+    },
+    {
+      "apiName": "ProductConsumptionSchedule",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "ProductSellingModelOption",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "RecordType",
+      "available": true,
+      "durableId": "durable-RecordType",
+      "label": "RecordType",
+      "namespace": null,
+      "recordCount": 1
+    },
+    {
+      "apiName": "SBQQ__AttributeItem__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__AttributeSet__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__AttributeValue__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__BlockPrice__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ColumnMetadata__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ConfigurationAttribute__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ConfigurationRule__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ContractedPrice__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__Cost__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__CustomActionCondition__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__CustomAction__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__CustomScript__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__Dimension__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__DiscountCategory__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__DiscountSchedule__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__DiscountTier__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ErrorCondition__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__LineColumn__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__Localization__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__LocalizedValue__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__LookupData__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__LookupQuery__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__OptionConstraint__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__PluginField__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__PluginParameter__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__PriceAction__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__PriceCalculatorPlugin__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__PriceCondition__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__PriceRule__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__PricingGuidanceTier__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__PricingGuidance__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ProcessInputCondition__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ProcessInputValue__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ProcessInput__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ProductAction__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ProductAttributeSet__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ProductConfiguratorPlugin__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ProductFeature__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ProductOption__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ProductProcess__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__ProductRule__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__QuoteCalculatorPlugin__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__QuoteLineGroup__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__QuoteLine__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__QuoteProcess__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__QuoteTemplate__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__QuoteTerm__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__Quote__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__RatePlan__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__RelatedContent__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__SearchFilter__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__SolutionGroup__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__SummaryVariable__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__TaxExemptionCertificate__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__TemplateContent__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__TemplateSection__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__Theme__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__TieredUsageRate__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__UpgradeSource__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "SBQQ__UsageRate__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "TaxEngine",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "TaxPolicy",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "TaxRate",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "TaxTreatment",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "sbaa__ApprovalChain__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "sbaa__ApprovalCondition__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "sbaa__ApprovalRule__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "sbaa__ApprovalStep__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "sbaa__ApprovalVariable__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "sbaa__Approver__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    },
+    {
+      "apiName": "sbaa__TrackedField__c",
+      "available": false,
+      "durableId": null,
+      "label": null,
+      "namespace": null,
+      "recordCount": null
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "DefinitionId": "300000000000001AAA",
+    "Id": "301000000000001AAA",
+    "MasterLabel": "Quote Flow",
+    "Status": "Active",
+    "VersionNumber": 1
+  },
+  {
+    "DefinitionId": "300000000000001AAA",
+    "Id": "301000000000002AAA",
+    "MasterLabel": "Quote Flow",
+    "Status": "Draft",
+    "VersionNumber": 2
+  }
+]

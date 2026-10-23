@@ -1,0 +1,9 @@
+[
+  {
+    "FilePath": "lwc/quotePanel/quotePanel.js",
+    "Format": "js",
+    "Id": "0Rd000000000001AAA",
+    "LightningComponentBundleId": "0Rb000000000001AAA",
+    "Source": "import get from '@salesforce/apex/QuoteController.get'; // SBQQ__Quote__c"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "completeArtifacts": 27,
+  "completeDiscoveryChecks": 12,
+  "contract": "cpq-source-inventory-v1",
+  "contractHash": "0d80319dad24141b45ab583b9dbb4f455ea47a6fd4c8c171a66c6a8a36778fb8",
+  "coveragePercentage": 100.0,
+  "discoveryFailures": [],
+  "expectedArtifacts": 27,
+  "expectedDiscoveryChecks": 12,
+  "failedArtifacts": 0,
+  "gate": "SOURCE DATA",
+  "reconciliationHash": "d4e6ced40573645f1593dc9f0edbe8cf6bb9099d731cd63ca14fb8fa8396c3e3",
+  "schemaVersion": 1,
+  "status": "passed",
+  "waivedArtifacts": 0,
+  "waivedDiscoveryChecks": 0
+}

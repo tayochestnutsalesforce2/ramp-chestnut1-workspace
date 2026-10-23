@@ -1,0 +1,644 @@
+{
+  "components": [
+    {
+      "active": true,
+      "apiVersion": "61.0",
+      "attributes": {
+        "callouts": false,
+        "dml": 0,
+        "dynamicSoql": false,
+        "relevanceDepth": 0,
+        "soql": 0
+      },
+      "bundle": null,
+      "dependencyStatus": "complete",
+      "entryPoints": [
+        "aura-enabled"
+      ],
+      "id": "ApexClass:QuoteController",
+      "isTest": false,
+      "lastModifiedDate": null,
+      "metrics": {
+        "bytes": 103,
+        "cpqReferenceCount": 1,
+        "dml": 0,
+        "fanIn": 1,
+        "fanOut": 0,
+        "linesOfCode": 1,
+        "soql": 0
+      },
+      "name": "QuoteController",
+      "namespace": null,
+      "objects": [],
+      "ownership": "unmanaged",
+      "readiness": {
+        "enrichment": [],
+        "facets": {
+          "activeRuntimeEvidence": "complete",
+          "activityKnown": true,
+          "dependencies": "resolved",
+          "exists": "confirmed",
+          "source": "complete",
+          "version": "not-applicable"
+        },
+        "reasons": [],
+        "status": "READY"
+      },
+      "relevance": "DIRECT",
+      "relevanceDetail": {
+        "basis": "verified-reference",
+        "classification": "DIRECT",
+        "path": [],
+        "quality": "strong",
+        "questions": [],
+        "reason": "References CPQ directly (cpq-reference: SBQQ__Quote__c).",
+        "relatedComponent": null
+      },
+      "relevanceEvidence": [
+        {
+          "artifact": "code/apex/classes.json",
+          "detail": "SBQQ__Quote__c",
+          "line": 1,
+          "rule": "cpq-reference"
+        }
+      ],
+      "salesforceId": "01p000000000003AAA",
+      "selectedForSource": false,
+      "source": {
+        "artifact": "code/apex/classes.json",
+        "bytes": 103,
+        "detail": null,
+        "sha256": "b51b64d2ba857a545274aa080f13c4c0be3dade8472e2b7493e343d2362f2960",
+        "status": "complete"
+      },
+      "status": "Active",
+      "type": "ApexClass",
+      "version": null
+    },
+    {
+      "active": true,
+      "apiVersion": "61.0",
+      "attributes": {
+        "callouts": false,
+        "dml": 0,
+        "dynamicSoql": false,
+        "relevanceDepth": 2,
+        "soql": 0
+      },
+      "bundle": null,
+      "dependencyStatus": "complete",
+      "entryPoints": [],
+      "id": "ApexClass:QuoteMath",
+      "isTest": false,
+      "lastModifiedDate": null,
+      "metrics": {
+        "bytes": 85,
+        "cpqReferenceCount": 0,
+        "dml": 0,
+        "fanIn": 1,
+        "fanOut": 0,
+        "linesOfCode": 1,
+        "soql": 0
+      },
+      "name": "QuoteMath",
+      "namespace": null,
+      "objects": [],
+      "ownership": "unmanaged",
+      "readiness": {
+        "enrichment": [
+          {
+            "kind": "apex-source",
+            "name": "QuoteMath",
+            "salesforceId": "01p000000000002AAA"
+          }
+        ],
+        "facets": {
+          "activeRuntimeEvidence": "complete",
+          "activityKnown": true,
+          "dependencies": "resolved",
+          "exists": "confirmed",
+          "source": "not-requested",
+          "version": "not-applicable"
+        },
+        "reasons": [
+          "Source is not-requested: analysed at extraction; source not sealed at this evidence level."
+        ],
+        "status": "NEEDS_ENRICHMENT"
+      },
+      "relevance": "INDIRECT",
+      "relevanceDetail": {
+        "basis": "static-inference",
+        "classification": "INDIRECT",
+        "path": [
+          {
+            "dependencyType": "references-class",
+            "direction": "depends-on",
+            "from": "ApexTrigger:QuoteTrigger",
+            "resolution": "static-inferred",
+            "to": "ApexClass:QuoteTriggerHandler"
+          },
+          {
+            "dependencyType": "references-class",
+            "direction": "depends-on",
+            "from": "ApexClass:QuoteTriggerHandler",
+            "resolution": "static-inferred",
+            "to": "ApexClass:QuoteMath"
+          }
+        ],
+        "quality": "moderate",
+        "questions": [],
+        "reason": "is a dependency of relevant ApexClass:QuoteTriggerHandler (2 hop(s) from DIRECT ApexTrigger:QuoteTrigger).",
+        "relatedComponent": "ApexClass:QuoteTriggerHandler"
+      },
+      "relevanceEvidence": [
+        {
+          "artifact": "code/apex/classes.json",
+          "detail": "references-class from ApexClass:QuoteTriggerHandler (depth 2)",
+          "line": 1,
+          "rule": "dependency-of-relevant"
+        }
+      ],
+      "salesforceId": "01p000000000002AAA",
+      "selectedForSource": false,
+      "source": {
+        "artifact": null,
+        "bytes": 85,
+        "detail": "analysed at extraction; source not sealed at this evidence level",
+        "sha256": "f947ae1ac612aac36fbfe72700850089ffde49d15eb568216efd6a5c72d792fc",
+        "status": "not-requested"
+      },
+      "status": "Active",
+      "type": "ApexClass",
+      "version": null
+    },
+    {
+      "active": true,
+      "apiVersion": "61.0",
+      "attributes": {
+        "callouts": false,
+        "dml": 0,
+        "dynamicSoql": false,
+        "relevanceDepth": 1,
+        "soql": 0
+      },
+      "bundle": null,
+      "dependencyStatus": "complete",
+      "entryPoints": [],
+      "id": "ApexClass:QuoteTriggerHandler",
+      "isTest": false,
+      "lastModifiedDate": null,
+      "metrics": {
+        "bytes": 100,
+        "cpqReferenceCount": 0,
+        "dml": 0,
+        "fanIn": 1,
+        "fanOut": 1,
+        "linesOfCode": 1,
+        "soql": 0
+      },
+      "name": "QuoteTriggerHandler",
+      "namespace": null,
+      "objects": [],
+      "ownership": "unmanaged",
+      "readiness": {
+        "enrichment": [
+          {
+            "kind": "apex-source",
+            "name": "QuoteTriggerHandler",
+            "salesforceId": "01p000000000001AAA"
+          }
+        ],
+        "facets": {
+          "activeRuntimeEvidence": "complete",
+          "activityKnown": true,
+          "dependencies": "resolved",
+          "exists": "confirmed",
+          "source": "not-requested",
+          "version": "not-applicable"
+        },
+        "reasons": [
+          "Source is not-requested: analysed at extraction; source not sealed at this evidence level."
+        ],
+        "status": "NEEDS_ENRICHMENT"
+      },
+      "relevance": "INDIRECT",
+      "relevanceDetail": {
+        "basis": "static-inference",
+        "classification": "INDIRECT",
+        "path": [
+          {
+            "dependencyType": "references-class",
+            "direction": "depends-on",
+            "from": "ApexTrigger:QuoteTrigger",
+            "resolution": "static-inferred",
+            "to": "ApexClass:QuoteTriggerHandler"
+          }
+        ],
+        "quality": "moderate",
+        "questions": [],
+        "reason": "is a dependency of relevant ApexTrigger:QuoteTrigger (1 hop(s) from DIRECT ApexTrigger:QuoteTrigger).",
+        "relatedComponent": "ApexTrigger:QuoteTrigger"
+      },
+      "relevanceEvidence": [
+        {
+          "artifact": "code/apex/triggers.json",
+          "detail": "references-class from ApexTrigger:QuoteTrigger (depth 1)",
+          "line": 1,
+          "rule": "dependency-of-relevant"
+        }
+      ],
+      "salesforceId": "01p000000000001AAA",
+      "selectedForSource": false,
+      "source": {
+        "artifact": null,
+        "bytes": 100,
+        "detail": "analysed at extraction; source not sealed at this evidence level",
+        "sha256": "1c5f14f1170902f5ba1083244fa7b97d45a989599c6deb88b2741be313077ec1",
+        "status": "not-requested"
+      },
+      "status": "Active",
+      "type": "ApexClass",
+      "version": null
+    },
+    {
+      "active": true,
+      "apiVersion": "61.0",
+      "attributes": {
+        "callouts": false,
+        "dml": 0,
+        "dynamicSoql": false,
+        "soql": 0
+      },
+      "bundle": null,
+      "dependencyStatus": "complete",
+      "entryPoints": [],
+      "id": "ApexClass:StringTools",
+      "isTest": false,
+      "lastModifiedDate": null,
+      "metrics": {
+        "bytes": 28,
+        "cpqReferenceCount": 0,
+        "dml": 0,
+        "fanIn": 0,
+        "fanOut": 0,
+        "linesOfCode": 1,
+        "soql": 0
+      },
+      "name": "StringTools",
+      "namespace": null,
+      "objects": [],
+      "ownership": "unmanaged",
+      "readiness": {
+        "enrichment": [],
+        "facets": {
+          "activeRuntimeEvidence": "complete",
+          "activityKnown": true,
+          "dependencies": "resolved",
+          "exists": "confirmed",
+          "source": "not-requested",
+          "version": "not-applicable"
+        },
+        "reasons": [
+          "BACKGROUND: outside Stage 09's default analysis set.",
+          "Source is not-requested: analysed at extraction; source not sealed at this evidence level."
+        ],
+        "status": "NOT_SELECTED"
+      },
+      "relevance": "BACKGROUND",
+      "relevanceDetail": {
+        "basis": "no-evidence",
+        "classification": "BACKGROUND",
+        "path": [],
+        "quality": "none",
+        "questions": [],
+        "reason": "Source analysed; no CPQ or commercial-object evidence.",
+        "relatedComponent": null
+      },
+      "relevanceEvidence": [
+        {
+          "artifact": null,
+          "detail": "source analysed",
+          "line": null,
+          "rule": "no-cpq-or-commercial-evidence"
+        }
+      ],
+      "salesforceId": "01p000000000004AAA",
+      "selectedForSource": false,
+      "source": {
+        "artifact": null,
+        "bytes": 28,
+        "detail": "analysed at extraction; source not sealed at this evidence level",
+        "sha256": "1c4178f49eeefa1f3f08299f5b4402e58439de40ab6650ba33834da76782e1f1",
+        "status": "not-requested"
+      },
+      "status": "Active",
+      "type": "ApexClass",
+      "version": null
+    },
+    {
+      "active": true,
+      "apiVersion": null,
+      "attributes": {
+        "callouts": false,
+        "dml": 0,
+        "dynamicSoql": false,
+        "relevanceDepth": 0,
+        "soql": 0
+      },
+      "bundle": null,
+      "dependencyStatus": "complete",
+      "entryPoints": [
+        "trigger:before insert"
+      ],
+      "id": "ApexTrigger:QuoteTrigger",
+      "isTest": false,
+      "lastModifiedDate": null,
+      "metrics": {
+        "bytes": 96,
+        "cpqReferenceCount": 1,
+        "dml": 0,
+        "fanIn": 0,
+        "fanOut": 1,
+        "linesOfCode": 1,
+        "soql": 0
+      },
+      "name": "QuoteTrigger",
+      "namespace": null,
+      "objects": [
+        "SBQQ__Quote__c"
+      ],
+      "ownership": "unmanaged",
+      "readiness": {
+        "enrichment": [],
+        "facets": {
+          "activeRuntimeEvidence": "complete",
+          "activityKnown": true,
+          "dependencies": "resolved",
+          "exists": "confirmed",
+          "source": "complete",
+          "version": "not-applicable"
+        },
+        "reasons": [],
+        "status": "READY"
+      },
+      "relevance": "DIRECT",
+      "relevanceDetail": {
+        "basis": "verified-reference",
+        "classification": "DIRECT",
+        "path": [],
+        "quality": "strong",
+        "questions": [],
+        "reason": "References CPQ directly (cpq-object-entry: ApexTrigger on SBQQ__Quote__c).",
+        "relatedComponent": null
+      },
+      "relevanceEvidence": [
+        {
+          "artifact": "code/apex/triggers.json",
+          "detail": "ApexTrigger on SBQQ__Quote__c",
+          "line": null,
+          "rule": "cpq-object-entry"
+        },
+        {
+          "artifact": "code/apex/triggers.json",
+          "detail": "SBQQ__Quote__c",
+          "line": 1,
+          "rule": "cpq-reference"
+        }
+      ],
+      "salesforceId": "01q000000000001AAA",
+      "selectedForSource": false,
+      "source": {
+        "artifact": "code/apex/triggers.json",
+        "bytes": 96,
+        "detail": null,
+        "sha256": "9c2dc85f3431c95ee96f4e37fca26dd1903d17eb30514bcc7c8fb41c87b49c6d",
+        "status": "complete"
+      },
+      "status": "Active",
+      "type": "ApexTrigger",
+      "version": null
+    },
+    {
+      "active": true,
+      "apiVersion": null,
+      "attributes": {
+        "decisions": 0,
+        "definitionStatus": "Active",
+        "entryConditions": {
+          "filterFormula": null,
+          "filterLogic": null,
+          "filters": [],
+          "schedule": null
+        },
+        "externalActions": [],
+        "formulas": 0,
+        "processType": "AutoLaunchedFlow",
+        "recordOperations": [],
+        "relevanceDepth": 0,
+        "screens": 0
+      },
+      "bundle": null,
+      "dependencyStatus": "complete",
+      "entryPoints": [
+        "flow:RecordAfterSave"
+      ],
+      "id": "Flow:Quote_Flow",
+      "isTest": false,
+      "lastModifiedDate": null,
+      "metrics": {
+        "bytes": 128,
+        "cpqReferenceCount": 1,
+        "fanIn": 0,
+        "fanOut": 0,
+        "linesOfCode": 1
+      },
+      "name": "Quote_Flow",
+      "namespace": null,
+      "objects": [
+        "SBQQ__Quote__c"
+      ],
+      "ownership": "unmanaged",
+      "readiness": {
+        "enrichment": [],
+        "facets": {
+          "activeRuntimeEvidence": "complete",
+          "activityKnown": true,
+          "dependencies": "resolved",
+          "exists": "confirmed",
+          "source": "complete",
+          "version": "correct"
+        },
+        "reasons": [],
+        "status": "READY"
+      },
+      "relevance": "DIRECT",
+      "relevanceDetail": {
+        "basis": "verified-reference",
+        "classification": "DIRECT",
+        "path": [],
+        "quality": "strong",
+        "questions": [],
+        "reason": "References CPQ directly (cpq-object-entry: Flow on SBQQ__Quote__c).",
+        "relatedComponent": null
+      },
+      "relevanceEvidence": [
+        {
+          "artifact": "code/flows/definitions.json",
+          "detail": "Flow on SBQQ__Quote__c",
+          "line": null,
+          "rule": "cpq-object-entry"
+        },
+        {
+          "artifact": "code/flows/definitions.json",
+          "detail": "SBQQ__Quote__c",
+          "line": 1,
+          "rule": "cpq-reference"
+        }
+      ],
+      "salesforceId": "300000000000001AAA",
+      "selectedForSource": false,
+      "source": {
+        "artifact": "code/flows/definitions.json",
+        "bytes": 128,
+        "detail": null,
+        "sha256": "ca7ea9521039b64f011aa5692576fbc2620017b4f97fd404ff05e9c60a6bbed9",
+        "status": "complete"
+      },
+      "status": "Active",
+      "type": "Flow",
+      "version": {
+        "activeIsLatest": false,
+        "activeVersionId": "301000000000001AAA",
+        "activeVersionNumber": 1,
+        "definitionId": "300000000000001AAA",
+        "latestStatus": "Draft",
+        "latestVersionId": "301000000000002AAA",
+        "latestVersionNumber": 2,
+        "processType": null,
+        "retrieved": {
+          "fidelity": "active",
+          "method": "tooling-flow-by-version-id",
+          "status": "Active",
+          "versionId": "301000000000001AAA",
+          "versionNumber": 1
+        },
+        "versionCount": 2
+      }
+    },
+    {
+      "active": null,
+      "apiVersion": null,
+      "attributes": {
+        "platformModules": [],
+        "publicProperties": [],
+        "relevanceDepth": 1,
+        "usesLightningDataService": false,
+        "usesNavigation": false
+      },
+      "bundle": {
+        "captured": [
+          "quotePanel.js"
+        ],
+        "inOrg": [
+          "quotePanel.html",
+          "quotePanel.js",
+          "quotePanel.js-meta.xml"
+        ],
+        "manifestKnown": true,
+        "notCaptured": [
+          "quotePanel.html",
+          "quotePanel.js-meta.xml"
+        ],
+        "optionalAbsent": [
+          ".css"
+        ],
+        "requiredAbsentFromOrg": [],
+        "requiredMissing": [
+          "quotePanel.js-meta.xml"
+        ],
+        "status": "partial"
+      },
+      "dependencyStatus": "complete",
+      "entryPoints": [
+        "lwc:lightning__RecordPage"
+      ],
+      "id": "LightningComponentBundle:quotePanel",
+      "isTest": false,
+      "lastModifiedDate": null,
+      "metrics": {
+        "bytes": 204,
+        "cpqReferenceCount": 0,
+        "fanIn": 0,
+        "fanOut": 1,
+        "linesOfCode": 3
+      },
+      "name": "quotePanel",
+      "namespace": null,
+      "objects": [],
+      "ownership": "unmanaged",
+      "readiness": {
+        "enrichment": [
+          {
+            "kind": "lwc-bundle",
+            "name": "quotePanel",
+            "salesforceId": "0Rb000000000001AAA"
+          }
+        ],
+        "facets": {
+          "activeRuntimeEvidence": "complete",
+          "activityKnown": true,
+          "dependencies": "resolved",
+          "exists": "confirmed",
+          "source": "partial",
+          "version": "not-applicable"
+        },
+        "reasons": [
+          "Source is partial."
+        ],
+        "status": "NEEDS_ENRICHMENT"
+      },
+      "relevance": "INDIRECT",
+      "relevanceDetail": {
+        "basis": "verified-reference",
+        "classification": "INDIRECT",
+        "path": [
+          {
+            "dependencyType": "imports-apex",
+            "direction": "invoked-by",
+            "from": "ApexClass:QuoteController",
+            "resolution": "confirmed",
+            "to": "LightningComponentBundle:quotePanel"
+          }
+        ],
+        "quality": "strong",
+        "questions": [],
+        "reason": "invokes relevant ApexClass:QuoteController (1 hop(s) from DIRECT ApexClass:QuoteController).",
+        "relatedComponent": "ApexClass:QuoteController"
+      },
+      "relevanceEvidence": [
+        {
+          "artifact": "lwc/quotePanel/quotePanel.js",
+          "detail": "imports-apex ApexClass:QuoteController",
+          "line": 1,
+          "rule": "invokes-relevant"
+        }
+      ],
+      "salesforceId": "0Rb000000000001AAA",
+      "selectedForSource": false,
+      "source": {
+        "artifact": "code/lwc/index.json",
+        "bytes": 206,
+        "detail": null,
+        "sha256": "1ae190a2080bf588850e6f72afc647c5cfc5cf37e74aa421656500b417920d50",
+        "status": "partial"
+      },
+      "status": null,
+      "type": "LightningComponentBundle",
+      "version": null
+    }
+  ],
+  "contractVersion": "1.1.0",
+  "level": "inventory",
+  "schemaVersion": 1,
+  "sourceMode": "extraction"
+}

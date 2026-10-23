@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "301000000000001AAA",
+    "Metadata": {
+      "processType": "AutoLaunchedFlow",
+      "start": {
+        "object": "SBQQ__Quote__c",
+        "triggerType": "RecordAfterSave"
+      },
+      "status": "Active"
+    }
+  },
+  {
+    "Id": "301000000000002AAA",
+    "Metadata": {
+      "processType": "AutoLaunchedFlow",
+      "start": {
+        "object": "SBQQ__Quote__c"
+      },
+      "status": "Draft"
+    }
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "contractVersion": "1.1.0",
+  "edges": [
+    {
+      "dependencyType": "references-object",
+      "evidence": {
+        "artifact": "code/apex/classes.json",
+        "detail": "SBQQ__Quote__c",
+        "line": 1,
+        "rule": "apex:references-object"
+      },
+      "resolution": "static-inferred",
+      "source": "ApexClass:QuoteController",
+      "target": "object:SBQQ__Quote__c",
+      "targetKind": "object",
+      "targetScope": "managed-package",
+      "targetSourceAvailable": null
+    },
+    {
+      "dependencyType": "references-class",
+      "evidence": {
+        "artifact": "code/apex/classes.json",
+        "detail": "identifier QuoteMath",
+        "line": 1,
+        "rule": "apex:references-class"
+      },
+      "resolution": "static-inferred",
+      "source": "ApexClass:QuoteTriggerHandler",
+      "target": "ApexClass:QuoteMath",
+      "targetKind": "component",
+      "targetScope": "customer",
+      "targetSourceAvailable": false
+    },
+    {
+      "dependencyType": "references-class",
+      "evidence": {
+        "artifact": "code/apex/triggers.json",
+        "detail": "identifier QuoteTriggerHandler",
+        "line": 1,
+        "rule": "apex:references-class"
+      },
+      "resolution": "static-inferred",
+      "source": "ApexTrigger:QuoteTrigger",
+      "target": "ApexClass:QuoteTriggerHandler",
+      "targetKind": "component",
+      "targetScope": "customer",
+      "targetSourceAvailable": false
+    },
+    {
+      "dependencyType": "references-field",
+      "evidence": {
+        "artifact": "code/apex/triggers.json",
+        "detail": "SBQQ__Quote__c (object unknown)",
+        "line": 1,
+        "rule": "apex:references-field"
+      },
+      "resolution": "static-inferred",
+      "source": "ApexTrigger:QuoteTrigger",
+      "target": "field:SBQQ__Quote__c",
+      "targetKind": "field",
+      "targetScope": "managed-package",
+      "targetSourceAvailable": null
+    },
+    {
+      "dependencyType": "references-object",
+      "evidence": {
+        "artifact": "code/apex/triggers.json",
+        "detail": "trigger on SBQQ__Quote__c",
+        "line": 1,
+        "rule": "apex:trigger-object"
+      },
+      "resolution": "confirmed",
+      "source": "ApexTrigger:QuoteTrigger",
+      "target": "object:SBQQ__Quote__c",
+      "targetKind": "object",
+      "targetScope": "managed-package",
+      "targetSourceAvailable": null
+    },
+    {
+      "dependencyType": "trigger-object",
+      "evidence": {
+        "artifact": "code/flows/definitions.json",
+        "detail": "start object SBQQ__Quote__c",
+        "line": null,
+        "rule": "flow:trigger-object"
+      },
+      "resolution": "confirmed",
+      "source": "Flow:Quote_Flow",
+      "target": "object:SBQQ__Quote__c",
+      "targetKind": "object",
+      "targetScope": "managed-package",
+      "targetSourceAvailable": null
+    },
+    {
+      "dependencyType": "imports-apex",
+      "evidence": {
+        "artifact": "lwc/quotePanel/quotePanel.js",
+        "detail": "@salesforce/apex/QuoteController.get",
+        "line": 1,
+        "rule": "lwc:imports-apex"
+      },
+      "resolution": "confirmed",
+      "source": "LightningComponentBundle:quotePanel",
+      "target": "ApexClass:QuoteController",
+      "targetKind": "component",
+      "targetScope": "customer",
+      "targetSourceAvailable": true
+    }
+  ],
+  "level": "inventory",
+  "limits": [],
+  "schemaVersion": 1,
+  "sourceMode": "extraction"
+}

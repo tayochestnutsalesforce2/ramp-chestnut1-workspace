@@ -1,0 +1,47 @@
+{
+  "actor": "Tayo Chestnut",
+  "actorKind": "human",
+  "authority": {
+    "decisionFingerprint": null,
+    "decisionId": null,
+    "kind": "self",
+    "ratifiedBy": null
+  },
+  "bindings": {
+    "branch": "ramp-project-main",
+    "bytes": 4915,
+    "files": 9,
+    "remote": "https://github.com/tayochestnutsalesforce2/ramp-chestnut1-workspace.git",
+    "repoId": 1431568606
+  },
+  "contentFingerprint": "4b9d4ba5bb31f4631711206c9d14de9d7d1dc09e6f007d2509f488005f1ccc15",
+  "contractVersion": "1.0.0",
+  "customerKey": "chestnut-ramp1-poc",
+  "decidedAt": "2026-10-23T22:40:24Z",
+  "decision": "approved",
+  "decisionId": "dec-workspace-checkin-f4a377b4f7af4029bf8cc43cc46b6720",
+  "effect": "write-authority",
+  "fingerprint": "1ea8949898da5cea73d208a7717cafaafd23030f7a5bf5ceddd9102825e3dc8b",
+  "identity": {
+    "channel": "cli-tty",
+    "enteredAt": null,
+    "host": "tchestnu-ltmmfwj.internal.salesforce.com",
+    "mode": "typed",
+    "osUser": "tchestnut",
+    "sessionId": null
+  },
+  "items": [
+    {
+      "decision": "check-in",
+      "evidenceSha256": "4f7833532f6329e1f2563c4ad5f7d6747bb2114dda99f66e39eea1fbb89ff387",
+      "key": "manifest"
+    }
+  ],
+  "kind": "workspace-checkin",
+  "ratifies": [],
+  "reason": "Workspace check-in of manifest 4f7833532f63",
+  "schemaVersion": 1,
+  "stageId": "platform-storage",
+  "supersedes": null,
+  "version": 1
+}

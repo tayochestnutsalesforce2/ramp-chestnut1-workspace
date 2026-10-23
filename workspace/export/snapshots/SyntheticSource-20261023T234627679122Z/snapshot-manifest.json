@@ -1,0 +1,320 @@
+{
+  "artifacts": [
+    {
+      "path": "code/apex/classes.json",
+      "sha256": "4a62d25d66cadcfc59a0a99d4f6e039bfacaf1363e03f6575cc04919aad0fc27",
+      "size": 222
+    },
+    {
+      "path": "code/apex/index.json",
+      "sha256": "ecea811e367c09466cfef454f56f8cba8239f813e85df0c96ca44cb70101acbf",
+      "size": 470
+    },
+    {
+      "path": "code/apex/triggers.json",
+      "sha256": "ec393d7f040936ae67a04b655ac1f0e98c47206c771b9eaf3d54c4004bd1a6ce",
+      "size": 251
+    },
+    {
+      "path": "code/aura/bundles.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "code/aura/index.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "code/flows/definition-index.json",
+      "sha256": "7d4f6206fbc97d7402dc58d537b875858415eac93f94aeeaf0e2d59ff104b492",
+      "size": 197
+    },
+    {
+      "path": "code/flows/definitions.json",
+      "sha256": "99443f2e1a4c91841b7844aed2b9c299dc9f03320e665d08b345c412cfbdde4b",
+      "size": 428
+    },
+    {
+      "path": "code/flows/index.json",
+      "sha256": "4a6ee7a6006da71844414d2d62013894c9b2963b738090f80dc574038fc8fdbf",
+      "size": 328
+    },
+    {
+      "path": "code/lwc/bundles.json",
+      "sha256": "f80539cf9329ab4eeef36b38f4d5c5e572829d57d3518f12942d549b0f562da8",
+      "size": 107
+    },
+    {
+      "path": "code/lwc/index.json",
+      "sha256": "61f45301bf91614c12782830eae60717c7f897eac1101c8a50b14b2820cab7fd",
+      "size": 258
+    },
+    {
+      "path": "code/visualforce/components.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "code/visualforce/pages.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "customization/coverage.json",
+      "sha256": "b298c768beb20e4da25c38d33c4f0f73f0f9ec1f63e6871b8be03a0e7c037e8e",
+      "size": 5347
+    },
+    {
+      "path": "customization/dependencies.json",
+      "sha256": "074557c95d43117f8e4e9f7f47fa823c6fea8911b44de2f797f8a3ea34ee80d8",
+      "size": 3419
+    },
+    {
+      "path": "customization/inventory.json",
+      "sha256": "dfd52a4f2418b2c0f65c7beaa2d8d2527df32c5219ebf70e53866a6cbbb7e138",
+      "size": 18218
+    },
+    {
+      "path": "customization/manifest.json",
+      "sha256": "2a8504f4d99214b9a158a37ce59443488e65e64461f7be202b6e33682247f7d6",
+      "size": 769
+    },
+    {
+      "path": "data/approvals/email-templates.csv",
+      "sha256": "8b7c0a5984868642c443871c972ab72c0528f4d166285f2b141ab6cf3b495583",
+      "size": 33
+    },
+    {
+      "path": "data/approvals/email-templates.json",
+      "sha256": "8f2b876b6dea4a278fb802d760628b642b21f66fa6ced6008322bf068b6567ab",
+      "size": 64
+    },
+    {
+      "path": "data/bundles/products.csv",
+      "sha256": "0f8d5bde82a718cf2371f21a4ab0ae717bab957a04e59e456a5812f1e820873c",
+      "size": 28
+    },
+    {
+      "path": "data/bundles/products.json",
+      "sha256": "036b8893795f42989d02c32ded82f51d9416647278e9be0f7317df2dda2f35ec",
+      "size": 59
+    },
+    {
+      "path": "data/pricing/pricebook-entries.csv",
+      "sha256": "2ee18ed0860bfc490cbd7eb605c94a9d283ba31454159d739457d9041f48b1c2",
+      "size": 34
+    },
+    {
+      "path": "data/pricing/pricebook-entries.json",
+      "sha256": "788321ff5d19c8fa11967b56b393b727e3e3b6d899eb5aa6ed0a635bf3a288bb",
+      "size": 65
+    },
+    {
+      "path": "data/pricing/pricebooks.csv",
+      "sha256": "96f72cff13f677fd8efedb04230d73e508ae88b16b75b24c65dc72015932d9ef",
+      "size": 30
+    },
+    {
+      "path": "data/pricing/pricebooks.json",
+      "sha256": "f2baa37de2b358096cf8300770e5883680e9c4fba4c6b4b98b3eff590db12e44",
+      "size": 61
+    },
+    {
+      "path": "extraction-report.json",
+      "sha256": "c6efeea17f57d02f900a628779b9d88c64f4d3b5cfd5c823893139671f3e2acc",
+      "size": 58352
+    },
+    {
+      "path": "metadata/custom-labels.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "metadata/custom-object-definitions.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "metadata/record-types.csv",
+      "sha256": "ee955b43d3d224b2ea6a29a8b724740f506956014c7292647e11651408fcf1a3",
+      "size": 30
+    },
+    {
+      "path": "metadata/record-types.json",
+      "sha256": "74021ed54a5802d5b38674edd54c8ef1f8d95628b6609689989446eadc17508b",
+      "size": 61
+    },
+    {
+      "path": "metadata/static-resources.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "metadata/validation-rules.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size": 3
+    },
+    {
+      "path": "org/identity.json",
+      "sha256": "6e7e095fc1c426258ffc98d80e57f3e3f86554462ebc77114fab1278170dd4cd",
+      "size": 49
+    },
+    {
+      "path": "org/packages.csv",
+      "sha256": "e58db23dccdc3aa2b56031e9f7182db918ca1c9c725616fe5d71979e6b2c760a",
+      "size": 79
+    },
+    {
+      "path": "org/packages.json",
+      "sha256": "f8956d3c7178e332218940c0a5478fce8fd1cee429a4e1b9724120ab3505bd4b",
+      "size": 109
+    },
+    {
+      "path": "references/field-usage.json",
+      "sha256": "47921a995cf2ff425d6ca9625a0e5f11f4f7501c0d3a561951aca30f233072ef",
+      "size": 69
+    },
+    {
+      "path": "schema/fields.csv",
+      "sha256": "579247512c304f623d05f365ad1b90acc142ae5bc0ed3456e7324660105280a7",
+      "size": 1224
+    },
+    {
+      "path": "schema/fields.json",
+      "sha256": "2211efb93b6705440e5b968c306b731049764cb0bd48874eb1763a268170a0b7",
+      "size": 6816
+    },
+    {
+      "path": "schema/objects.csv",
+      "sha256": "e487897c25a40796b5968ed3b4072861d309a52a88fc42814d01c6a440e2fb73",
+      "size": 2999
+    },
+    {
+      "path": "schema/objects.json",
+      "sha256": "7fed5a8ee75722cf1c0ce56336069ebce34aa7825cefc168dedf1ecc25f4e7c7",
+      "size": 16088
+    },
+    {
+      "path": "snapshot/coverage.json",
+      "sha256": "8cdbb8a2f647a8f9d60bf1deb7120d85dc05470787c5dd87472584ac12f7c88c",
+      "size": 27715
+    },
+    {
+      "path": "snapshot/discovered-inventory.json",
+      "sha256": "e54f8c0e1a2aadd559488d3ff75421c22991c710af4cf2778c7906240a91f6c4",
+      "size": 240
+    },
+    {
+      "path": "snapshot/expected-inventory.json",
+      "sha256": "1f8f641dc829c7dbd58e2368702dd1d633c4378084dbab6530a6d122e02763c3",
+      "size": 6545
+    },
+    {
+      "path": "snapshot/reconciliation.json",
+      "sha256": "d4e6ced40573645f1593dc9f0edbe8cf6bb9099d731cd63ca14fb8fa8396c3e3",
+      "size": 9323
+    },
+    {
+      "path": "snapshot/source-data-gate.json",
+      "sha256": "50f81e1e7f6b4c185f05e2a137ad1a2a01bb08b99567c61ea0798a7280ea59ca",
+      "size": 547
+    },
+    {
+      "path": "snapshot/waivers.json",
+      "sha256": "f53faf8eaaa5cf69ac76e12d5e684f31890e51d6f9f090148df4005d74e155c9",
+      "size": 42
+    }
+  ],
+  "createdAt": "2026-10-23T23:46:27Z",
+  "fingerprint": "d41424474192dea495cb863c9a899d3bc4aa195cb7ddbab14d2f6e4e0ac83f4a",
+  "fingerprintAlgorithm": "sha256",
+  "immutable": true,
+  "metadata": {
+    "approvalIdentityPolicy": "required",
+    "artifactCountCaptured": 20,
+    "artifactCountRequested": 95,
+    "customizationEvidence": {
+      "budgets": {
+        "maxComponents": 1500,
+        "maxDepth": 4,
+        "maxSourceBytes": 25000000
+      },
+      "components": 7,
+      "contract": "customization-evidence-manifest.v1",
+      "edges": 7,
+      "level": "inventory",
+      "relevance": {
+        "BACKGROUND": 1,
+        "DIRECT": 3,
+        "INDIRECT": 3,
+        "POTENTIAL": 0,
+        "UNKNOWN": 0
+      },
+      "sourceMode": "extraction"
+    },
+    "extractionPerformance": {
+      "fieldCliProcessReductionPercentage": 53.3,
+      "fieldCliProcesses": 7,
+      "fieldQueryBatchSize": 75,
+      "legacyFieldCliProcesses": 15
+    },
+    "extractionPolicy": {
+      "configurationAndCode": "included",
+      "transactionHistory": "excluded",
+      "transactionHistoryReason": "Requires the explicit subscription-data profile to control volume and customer-data exposure."
+    },
+    "fieldCount": 10,
+    "objectCountAvailable": 5,
+    "objectCountRequested": 90,
+    "profile": "migration-build",
+    "runtimeDiagnostics": {
+      "caches": {},
+      "metrics": {
+        "counters": {}
+      }
+    },
+    "sourceDataGate": {
+      "completeArtifacts": 27,
+      "completeDiscoveryChecks": 12,
+      "contract": "cpq-source-inventory-v1",
+      "contractHash": "0d80319dad24141b45ab583b9dbb4f455ea47a6fd4c8c171a66c6a8a36778fb8",
+      "coveragePercentage": 100.0,
+      "discoveryFailures": [],
+      "expectedArtifacts": 27,
+      "expectedDiscoveryChecks": 12,
+      "failedArtifacts": 0,
+      "gate": "SOURCE DATA",
+      "reconciliationHash": "d4e6ced40573645f1593dc9f0edbe8cf6bb9099d731cd63ca14fb8fa8396c3e3",
+      "schemaVersion": 1,
+      "status": "passed",
+      "waivedArtifacts": 0,
+      "waivedDiscoveryChecks": 0
+    },
+    "sourceOrg": {
+      "alias": "SyntheticSource",
+      "apiVersion": null,
+      "orgId": "00D1",
+      "username": null
+    }
+  },
+  "schemaVersion": 1,
+  "snapshotId": "SyntheticSource-20261023T234627679122Z",
+  "sourceDataGate": {
+    "completeArtifacts": 27,
+    "completeDiscoveryChecks": 12,
+    "contract": "cpq-source-inventory-v1",
+    "contractHash": "0d80319dad24141b45ab583b9dbb4f455ea47a6fd4c8c171a66c6a8a36778fb8",
+    "coveragePercentage": 100.0,
+    "discoveryFailures": [],
+    "expectedArtifacts": 27,
+    "expectedDiscoveryChecks": 12,
+    "failedArtifacts": 0,
+    "gate": "SOURCE DATA",
+    "reconciliationHash": "d4e6ced40573645f1593dc9f0edbe8cf6bb9099d731cd63ca14fb8fa8396c3e3",
+    "schemaVersion": 1,
+    "status": "passed",
+    "waivedArtifacts": 0,
+    "waivedDiscoveryChecks": 0
+  }
+}

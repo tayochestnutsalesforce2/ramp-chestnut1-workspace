@@ -1,0 +1,223 @@
+{
+  "budgets": {
+    "maxComponents": 1500,
+    "maxDepth": 4,
+    "maxSourceBytes": 25000000
+  },
+  "contractVersion": "1.1.0",
+  "events": [],
+  "level": "inventory",
+  "limitations": [],
+  "reconciliation": [
+    {
+      "check": "inventory-count",
+      "detail": "Per-type discovered + referenced-only counts equal the inventory",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "check": "edge-endpoints",
+      "detail": "Every edge joins inventory components or a scoped external reference (platform:, managed:, dynamic:, object/field)",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "check": "indirect-paths",
+      "detail": "Every INDIRECT component carries its explaining dependency path",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "check": "readiness-assessed",
+      "detail": "Every component carries a readiness assessment",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "check": "complete-source-located",
+      "detail": "Every component whose source is complete names the artifact holding it",
+      "passed": true,
+      "problems": []
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceMode": "extraction",
+  "summary": {
+    "budgetOrDepthLimitsReached": false,
+    "byType": {
+      "ApexClass": {
+        "active": 4,
+        "dependencies": {
+          "not-analyzed": 0,
+          "partial": 0,
+          "resolved": 4
+        },
+        "discovered": 4,
+        "managed": 0,
+        "managedNotReferenced": {
+          "SBQQ": 1
+        },
+        "readiness": {
+          "BLOCKED": 0,
+          "NEEDS_ENRICHMENT": 2,
+          "NOT_SELECTED": 1,
+          "PARTIAL": 0,
+          "READY": 1
+        },
+        "referencedOnly": 0,
+        "relevance": {
+          "BACKGROUND": 1,
+          "DIRECT": 1,
+          "INDIRECT": 2,
+          "POTENTIAL": 0,
+          "UNKNOWN": 0
+        },
+        "relevantNeedingEnrichment": 2,
+        "source": {
+          "complete": 1,
+          "failed": 0,
+          "missing": 0,
+          "not-requested": 3,
+          "partial": 0,
+          "unavailable": 0
+        },
+        "unresolvedDependencies": 0
+      },
+      "ApexTrigger": {
+        "active": 1,
+        "dependencies": {
+          "not-analyzed": 0,
+          "partial": 0,
+          "resolved": 1
+        },
+        "discovered": 1,
+        "managed": 0,
+        "readiness": {
+          "BLOCKED": 0,
+          "NEEDS_ENRICHMENT": 0,
+          "NOT_SELECTED": 0,
+          "PARTIAL": 0,
+          "READY": 1
+        },
+        "referencedOnly": 0,
+        "relevance": {
+          "BACKGROUND": 0,
+          "DIRECT": 1,
+          "INDIRECT": 0,
+          "POTENTIAL": 0,
+          "UNKNOWN": 0
+        },
+        "relevantNeedingEnrichment": 0,
+        "source": {
+          "complete": 1,
+          "failed": 0,
+          "missing": 0,
+          "not-requested": 0,
+          "partial": 0,
+          "unavailable": 0
+        },
+        "unresolvedDependencies": 0
+      },
+      "Flow": {
+        "active": 1,
+        "dependencies": {
+          "not-analyzed": 0,
+          "partial": 0,
+          "resolved": 1
+        },
+        "discovered": 1,
+        "flowVersions": {
+          "activeIsLatest": 0,
+          "capturedVersionIsActive": 1,
+          "definitionMissing": 0,
+          "indexed": 1,
+          "latestNotActiveCaptured": 0,
+          "noActiveVersion": 0,
+          "withActiveVersion": 1
+        },
+        "managed": 0,
+        "readiness": {
+          "BLOCKED": 0,
+          "NEEDS_ENRICHMENT": 0,
+          "NOT_SELECTED": 0,
+          "PARTIAL": 0,
+          "READY": 1
+        },
+        "referencedOnly": 0,
+        "relevance": {
+          "BACKGROUND": 0,
+          "DIRECT": 1,
+          "INDIRECT": 0,
+          "POTENTIAL": 0,
+          "UNKNOWN": 0
+        },
+        "relevantNeedingEnrichment": 0,
+        "source": {
+          "complete": 1,
+          "failed": 0,
+          "missing": 0,
+          "not-requested": 0,
+          "partial": 0,
+          "unavailable": 0
+        },
+        "unresolvedDependencies": 0
+      },
+      "LightningComponentBundle": {
+        "active": 0,
+        "bundles": {
+          "complete": 0,
+          "manifestUnknown": 0,
+          "missing": 0,
+          "partial": 1
+        },
+        "dependencies": {
+          "not-analyzed": 0,
+          "partial": 0,
+          "resolved": 1
+        },
+        "discovered": 1,
+        "managed": 0,
+        "readiness": {
+          "BLOCKED": 0,
+          "NEEDS_ENRICHMENT": 1,
+          "NOT_SELECTED": 0,
+          "PARTIAL": 0,
+          "READY": 0
+        },
+        "referencedOnly": 0,
+        "relevance": {
+          "BACKGROUND": 0,
+          "DIRECT": 0,
+          "INDIRECT": 1,
+          "POTENTIAL": 0,
+          "UNKNOWN": 0
+        },
+        "relevantNeedingEnrichment": 1,
+        "source": {
+          "complete": 0,
+          "failed": 0,
+          "missing": 0,
+          "not-requested": 0,
+          "partial": 1,
+          "unavailable": 0
+        },
+        "unresolvedDependencies": 0
+      }
+    },
+    "readiness": {
+      "BLOCKED": 0,
+      "NEEDS_ENRICHMENT": 3,
+      "NOT_SELECTED": 1,
+      "PARTIAL": 0,
+      "READY": 3
+    },
+    "relevance": {
+      "BACKGROUND": 1,
+      "DIRECT": 3,
+      "INDIRECT": 3,
+      "POTENTIAL": 0,
+      "UNKNOWN": 0
+    },
+    "unresolvedDependencies": 0
+  }
+}

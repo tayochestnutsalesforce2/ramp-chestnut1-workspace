@@ -1,0 +1,36 @@
+{
+  "budgets": {
+    "maxComponents": 1500,
+    "maxDepth": 4,
+    "maxSourceBytes": 25000000
+  },
+  "componentCount": 7,
+  "contract": "customization-evidence-manifest.v1",
+  "contractVersion": "1.1.0",
+  "edgeCount": 7,
+  "level": "inventory",
+  "readinessCounts": {
+    "BLOCKED": 0,
+    "NEEDS_ENRICHMENT": 3,
+    "NOT_SELECTED": 1,
+    "PARTIAL": 0,
+    "READY": 3
+  },
+  "relevanceCounts": {
+    "BACKGROUND": 1,
+    "DIRECT": 3,
+    "INDIRECT": 3,
+    "POTENTIAL": 0,
+    "UNKNOWN": 0
+  },
+  "schemaVersion": 1,
+  "sections": [
+    "customization/coverage.json",
+    "customization/dependencies.json",
+    "customization/inventory.json",
+    "customization/manifest.json"
+  ],
+  "selectedForSource": 0,
+  "sourceMode": "extraction",
+  "universeComplete": true
+}

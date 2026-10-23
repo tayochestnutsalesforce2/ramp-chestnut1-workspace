@@ -1,0 +1,2192 @@
+{
+  "events": [
+    {
+      "attempts": 1,
+      "complete": true,
+      "durationMs": 0,
+      "name": "managed-namespace-discovery",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 2,
+      "complete": true,
+      "durationMs": 0,
+      "name": "custom-type-discovery",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "durationMs": 0,
+      "name": "org-identity",
+      "records": 1,
+      "source": "sf-cli",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "durationMs": 0,
+      "name": "installed-packages",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "objectCount": 90
+      },
+      "durationMs": 0,
+      "name": "entity-definitions",
+      "records": 5,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 5
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "durationMs": 0,
+      "name": "record-counts",
+      "records": 5,
+      "source": "rest",
+      "status": "success",
+      "totalSize": 5
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "objectCount": 5,
+        "objects": [
+          "Product2",
+          "Pricebook2",
+          "PricebookEntry",
+          "EmailTemplate",
+          "RecordType"
+        ]
+      },
+      "durationMs": 0,
+      "name": "customer-fields",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "objectCount": 5,
+        "objects": [
+          "Product2",
+          "Pricebook2",
+          "PricebookEntry",
+          "EmailTemplate",
+          "RecordType"
+        ]
+      },
+      "durationMs": 0,
+      "name": "managed-fields",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "objectCount": 1,
+        "objects": [
+          "Product2"
+        ]
+      },
+      "durationMs": 0,
+      "name": "sobject-field-describe",
+      "records": 2,
+      "source": "describe",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "objectCount": 1,
+        "objects": [
+          "Pricebook2"
+        ]
+      },
+      "durationMs": 0,
+      "name": "sobject-field-describe",
+      "records": 2,
+      "source": "describe",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "objectCount": 1,
+        "objects": [
+          "PricebookEntry"
+        ]
+      },
+      "durationMs": 0,
+      "name": "sobject-field-describe",
+      "records": 2,
+      "source": "describe",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "objectCount": 1,
+        "objects": [
+          "EmailTemplate"
+        ]
+      },
+      "durationMs": 0,
+      "name": "sobject-field-describe",
+      "records": 2,
+      "source": "describe",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "objectCount": 1,
+        "objects": [
+          "RecordType"
+        ]
+      },
+      "durationMs": 0,
+      "name": "sobject-field-describe",
+      "records": 2,
+      "source": "describe",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "durationMs": 0,
+      "name": "field-particle-join",
+      "records": 10,
+      "source": "local-join",
+      "status": "success",
+      "totalSize": 10
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/apex/classes.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 4,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 4
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/apex/triggers.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/flows/index.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 2,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/flows/definitions.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 2,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/flows/definition-index.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/lwc/bundles.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/lwc/index.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 3,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 3
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/aura/bundles.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/aura/index.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/visualforce/pages.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/visualforce/components.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "metadata/validation-rules.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "metadata/custom-object-definitions.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "metadata/custom-labels.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "metadata/static-resources.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "pre-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "data/bundles/products.json",
+        "category": "configuration",
+        "objectApiName": "Product2"
+      },
+      "durationMs": 0,
+      "name": "artifact:data/bundles/products.json",
+      "records": 1,
+      "source": "data-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/bundles/features.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ProductFeature__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/bundles/features.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/bundles/options.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ProductOption__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/bundles/options.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/attributes/configuration-attributes.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ConfigurationAttribute__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/attributes/configuration-attributes.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/attributes/attribute-values.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__AttributeValue__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/attributes/attribute-values.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/pricebooks.json",
+        "category": "configuration",
+        "objectApiName": "Pricebook2"
+      },
+      "durationMs": 0,
+      "name": "artifact:data/pricing/pricebooks.json",
+      "records": 1,
+      "source": "data-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/pricebook-entries.json",
+        "category": "configuration",
+        "objectApiName": "PricebookEntry"
+      },
+      "durationMs": 0,
+      "name": "artifact:data/pricing/pricebook-entries.json",
+      "records": 1,
+      "source": "data-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/price-rules.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__PriceRule__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/price-rules.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/price-conditions.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__PriceCondition__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/price-conditions.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/price-actions.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__PriceAction__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/price-actions.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/discount-schedules.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__DiscountSchedule__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/discount-schedules.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/discount-tiers.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__DiscountTier__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/discount-tiers.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/block-prices.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__BlockPrice__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/block-prices.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/contracted-prices.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ContractedPrice__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/contracted-prices.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/costs.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__Cost__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/costs.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/lookup-data.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__LookupData__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/lookup-data.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/summary-variables.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__SummaryVariable__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/summary-variables.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/pricing-guidance.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__PricingGuidance__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/pricing-guidance.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/pricing-guidance-tiers.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__PricingGuidanceTier__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/pricing-guidance-tiers.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/pricing/discount-categories.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__DiscountCategory__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/pricing/discount-categories.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/rules/product-rules.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ProductRule__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/rules/product-rules.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/rules/configuration-rules.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ConfigurationRule__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/rules/configuration-rules.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/rules/error-conditions.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ErrorCondition__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/rules/error-conditions.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/rules/product-actions.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ProductAction__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/rules/product-actions.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/rules/option-constraints.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__OptionConstraint__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/rules/option-constraints.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/configuration/search-filters.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__SearchFilter__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/configuration/search-filters.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/configuration/dimensions.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__Dimension__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/configuration/dimensions.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/configuration/attribute-sets.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__AttributeSet__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/configuration/attribute-sets.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/configuration/attribute-items.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__AttributeItem__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/configuration/attribute-items.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/configuration/product-attribute-sets.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ProductAttributeSet__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/configuration/product-attribute-sets.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/configuration/upgrade-sources.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__UpgradeSource__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/configuration/upgrade-sources.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/configuration/solution-groups.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__SolutionGroup__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/configuration/solution-groups.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/extensions/lookup-queries.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__LookupQuery__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/extensions/lookup-queries.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/extensions/custom-actions.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__CustomAction__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/extensions/custom-actions.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/extensions/custom-action-conditions.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__CustomActionCondition__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/extensions/custom-action-conditions.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/extensions/plugin-fields.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__PluginField__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/extensions/plugin-fields.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/extensions/plugin-parameters.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__PluginParameter__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/extensions/plugin-parameters.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/extensions/quote-calculator-plugins.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__QuoteCalculatorPlugin__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/extensions/quote-calculator-plugins.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/extensions/product-configurator-plugins.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ProductConfiguratorPlugin__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/extensions/product-configurator-plugins.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/extensions/price-calculator-plugins.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__PriceCalculatorPlugin__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/extensions/price-calculator-plugins.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "code/qcp/index.json",
+        "category": "code",
+        "objectApiName": "SBQQ__CustomScript__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:code/qcp/index.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/docgen/quote-templates.json",
+        "category": "docgen",
+        "objectApiName": "SBQQ__QuoteTemplate__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/docgen/quote-templates.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/docgen/template-sections.json",
+        "category": "docgen",
+        "objectApiName": "SBQQ__TemplateSection__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/docgen/template-sections.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/docgen/template-content.json",
+        "category": "docgen",
+        "objectApiName": "SBQQ__TemplateContent__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/docgen/template-content.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/docgen/quote-terms.json",
+        "category": "docgen",
+        "objectApiName": "SBQQ__QuoteTerm__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/docgen/quote-terms.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/docgen/themes.json",
+        "category": "docgen",
+        "objectApiName": "SBQQ__Theme__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/docgen/themes.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/docgen/related-content.json",
+        "category": "docgen",
+        "objectApiName": "SBQQ__RelatedContent__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/docgen/related-content.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/ui/column-metadata.json",
+        "category": "ui",
+        "objectApiName": "SBQQ__ColumnMetadata__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/ui/column-metadata.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/ui/line-columns.json",
+        "category": "ui",
+        "objectApiName": "SBQQ__LineColumn__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/ui/line-columns.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/guided-selling/quote-processes.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__QuoteProcess__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/guided-selling/quote-processes.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/guided-selling/process-inputs.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ProcessInput__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/guided-selling/process-inputs.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/guided-selling/process-input-conditions.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ProcessInputCondition__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/guided-selling/process-input-conditions.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/guided-selling/process-input-values.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ProcessInputValue__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/guided-selling/process-input-values.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/guided-selling/product-processes.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__ProductProcess__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/guided-selling/product-processes.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/localization/localizations.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__Localization__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/localization/localizations.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/localization/values.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__LocalizedValue__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/localization/values.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/consumption/schedules.json",
+        "category": "configuration",
+        "objectApiName": "ConsumptionSchedule"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/consumption/schedules.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/consumption/rates.json",
+        "category": "configuration",
+        "objectApiName": "ConsumptionRate"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/consumption/rates.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/consumption/product-schedules.json",
+        "category": "configuration",
+        "objectApiName": "ProductConsumptionSchedule"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/consumption/product-schedules.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/consumption/usage-rates.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__UsageRate__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/consumption/usage-rates.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/consumption/rate-plans.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__RatePlan__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/consumption/rate-plans.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/consumption/tiered-usage-rates.json",
+        "category": "configuration",
+        "objectApiName": "SBQQ__TieredUsageRate__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/consumption/tiered-usage-rates.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/billing/policies.json",
+        "category": "billing",
+        "objectApiName": "BillingPolicy"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/billing/policies.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/billing/treatments.json",
+        "category": "billing",
+        "objectApiName": "BillingTreatment"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/billing/treatments.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/billing/treatment-items.json",
+        "category": "billing",
+        "objectApiName": "BillingTreatmentItem"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/billing/treatment-items.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/tax/policies.json",
+        "category": "tax",
+        "objectApiName": "TaxPolicy"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/tax/policies.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/tax/engines.json",
+        "category": "tax",
+        "objectApiName": "TaxEngine"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/tax/engines.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/tax/treatments.json",
+        "category": "tax",
+        "objectApiName": "TaxTreatment"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/tax/treatments.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/tax/rates.json",
+        "category": "tax",
+        "objectApiName": "TaxRate"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/tax/rates.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/tax/exemption-certificates.json",
+        "category": "tax",
+        "objectApiName": "SBQQ__TaxExemptionCertificate__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/tax/exemption-certificates.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/selling-models/product-selling-model-options.json",
+        "category": "selling-model",
+        "objectApiName": "ProductSellingModelOption"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/selling-models/product-selling-model-options.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/approvals/rules.json",
+        "category": "approval",
+        "objectApiName": "sbaa__ApprovalRule__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/approvals/rules.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/approvals/conditions.json",
+        "category": "approval",
+        "objectApiName": "sbaa__ApprovalCondition__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/approvals/conditions.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/approvals/variables.json",
+        "category": "approval",
+        "objectApiName": "sbaa__ApprovalVariable__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/approvals/variables.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/approvals/chains.json",
+        "category": "approval",
+        "objectApiName": "sbaa__ApprovalChain__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/approvals/chains.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/approvals/approval-steps.json",
+        "category": "approval",
+        "objectApiName": "sbaa__ApprovalStep__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/approvals/approval-steps.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/approvals/approvers.json",
+        "category": "approval",
+        "objectApiName": "sbaa__Approver__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/approvals/approvers.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 0,
+      "complete": true,
+      "context": {
+        "artifact": "data/approvals/tracked-fields.json",
+        "category": "approval",
+        "objectApiName": "sbaa__TrackedField__c"
+      },
+      "durationMs": 0,
+      "error": "Object is not installed or accessible",
+      "name": "artifact:data/approvals/tracked-fields.json",
+      "records": 0,
+      "source": "entity-definition",
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "data/approvals/email-templates.json",
+        "category": "approval",
+        "objectApiName": "EmailTemplate"
+      },
+      "durationMs": 0,
+      "name": "artifact:data/approvals/email-templates.json",
+      "records": 1,
+      "source": "data-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "metadata/record-types.json",
+        "category": "metadata",
+        "objectApiName": "RecordType"
+      },
+      "durationMs": 0,
+      "name": "artifact:metadata/record-types.json",
+      "records": 1,
+      "source": "data-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 2,
+      "complete": true,
+      "context": {
+        "artifact": "code/apex/classes.json",
+        "category": "code",
+        "objectApiName": "ApexClass"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/apex/classes.json",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 2,
+      "complete": true,
+      "context": {
+        "artifact": "code/apex/triggers.json",
+        "category": "code",
+        "objectApiName": "ApexTrigger"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/apex/triggers.json",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "code/flows/index.json",
+        "category": "automation",
+        "objectApiName": "Flow"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/flows/index.json",
+      "records": 2,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 3,
+      "complete": true,
+      "context": {
+        "artifact": "code/flows/definitions.json",
+        "category": "automation",
+        "objectApiName": "Flow"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/flows/definitions.json",
+      "records": 2,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "code/flows/definition-index.json",
+        "category": "automation",
+        "objectApiName": "FlowDefinition"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/flows/definition-index.json",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "code/lwc/bundles.json",
+        "category": "code",
+        "objectApiName": "LightningComponentBundle"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/lwc/bundles.json",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "code/lwc/index.json",
+        "category": "code",
+        "objectApiName": "LightningComponentResource"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/lwc/index.json",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "code/aura/bundles.json",
+        "category": "code",
+        "objectApiName": "AuraDefinitionBundle"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/aura/bundles.json",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "code/aura/index.json",
+        "category": "code",
+        "objectApiName": "AuraDefinition"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/aura/index.json",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "code/visualforce/pages.json",
+        "category": "code",
+        "objectApiName": "ApexPage"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/visualforce/pages.json",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "code/visualforce/components.json",
+        "category": "code",
+        "objectApiName": "ApexComponent"
+      },
+      "durationMs": 0,
+      "name": "artifact:code/visualforce/components.json",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "metadata/validation-rules.json",
+        "category": "metadata",
+        "objectApiName": "ValidationRule"
+      },
+      "durationMs": 0,
+      "name": "artifact:metadata/validation-rules.json",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "metadata/custom-object-definitions.json",
+        "category": "metadata",
+        "objectApiName": "CustomObject"
+      },
+      "durationMs": 0,
+      "name": "artifact:metadata/custom-object-definitions.json",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "metadata/custom-labels.json",
+        "category": "metadata",
+        "objectApiName": "ExternalString"
+      },
+      "durationMs": 0,
+      "name": "artifact:metadata/custom-labels.json",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifact": "metadata/static-resources.json",
+        "category": "metadata",
+        "objectApiName": "StaticResource"
+      },
+      "durationMs": 0,
+      "name": "artifact:metadata/static-resources.json",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "category": "customization"
+      },
+      "durationMs": 0,
+      "name": "customization:apex-class-inventory",
+      "records": 5,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 5
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "category": "customization"
+      },
+      "durationMs": 0,
+      "name": "customization:apex-trigger-inventory",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "durationMs": 0,
+      "name": "post-export-record-counts",
+      "records": 5,
+      "source": "rest",
+      "status": "success",
+      "totalSize": 5
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/apex/classes.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 4,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 4
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/apex/triggers.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/flows/index.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 2,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/flows/definitions.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 2,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/flows/definition-index.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/lwc/bundles.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 1,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/lwc/index.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 3,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 3
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/aura/bundles.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/aura/index.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/visualforce/pages.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "code/visualforce/components.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "metadata/validation-rules.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "metadata/custom-object-definitions.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "metadata/custom-labels.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "attempts": 1,
+      "complete": true,
+      "context": {
+        "artifacts": [
+          "metadata/static-resources.json"
+        ]
+      },
+      "durationMs": 0,
+      "name": "post-export-metadata-inventory",
+      "records": 0,
+      "source": "tooling-api",
+      "status": "success",
+      "totalSize": 0
+    }
+  ],
+  "generatedAt": "2026-10-23T23:46:27Z",
+  "schemaVersion": 1,
+  "snapshotId": "SyntheticSource-20261023T234627679122Z",
+  "summary": {
+    "failed": 0,
+    "partial": 0,
+    "success": 67,
+    "unavailable": 75
+  }
+}

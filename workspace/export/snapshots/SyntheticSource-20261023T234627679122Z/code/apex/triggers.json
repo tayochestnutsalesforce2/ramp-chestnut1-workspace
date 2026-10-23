@@ -1,0 +1,9 @@
+[
+  {
+    "Body": "trigger QuoteTrigger on SBQQ__Quote__c (before insert) { QuoteTriggerHandler.run(Trigger.new); }",
+    "Id": "01q000000000001AAA",
+    "Name": "QuoteTrigger",
+    "NamespacePrefix": null,
+    "TableEnumOrId": "SBQQ__Quote__c"
+  }
+]

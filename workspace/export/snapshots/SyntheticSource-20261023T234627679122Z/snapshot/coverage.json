@@ -1,0 +1,960 @@
+{
+  "artifacts": [
+    {
+      "category": "configuration",
+      "complete": true,
+      "objectApiName": "Product2",
+      "path": "data/bundles/products.json",
+      "records": 1,
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ProductFeature__c",
+      "path": "data/bundles/features.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ProductOption__c",
+      "path": "data/bundles/options.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ConfigurationAttribute__c",
+      "path": "data/attributes/configuration-attributes.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__AttributeValue__c",
+      "path": "data/attributes/attribute-values.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "objectApiName": "Pricebook2",
+      "path": "data/pricing/pricebooks.json",
+      "records": 1,
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "objectApiName": "PricebookEntry",
+      "path": "data/pricing/pricebook-entries.json",
+      "records": 1,
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__PriceRule__c",
+      "path": "data/pricing/price-rules.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__PriceCondition__c",
+      "path": "data/pricing/price-conditions.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__PriceAction__c",
+      "path": "data/pricing/price-actions.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__DiscountSchedule__c",
+      "path": "data/pricing/discount-schedules.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__DiscountTier__c",
+      "path": "data/pricing/discount-tiers.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__BlockPrice__c",
+      "path": "data/pricing/block-prices.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ContractedPrice__c",
+      "path": "data/pricing/contracted-prices.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__Cost__c",
+      "path": "data/pricing/costs.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__LookupData__c",
+      "path": "data/pricing/lookup-data.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__SummaryVariable__c",
+      "path": "data/pricing/summary-variables.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__PricingGuidance__c",
+      "path": "data/pricing/pricing-guidance.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__PricingGuidanceTier__c",
+      "path": "data/pricing/pricing-guidance-tiers.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__DiscountCategory__c",
+      "path": "data/pricing/discount-categories.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ProductRule__c",
+      "path": "data/rules/product-rules.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ConfigurationRule__c",
+      "path": "data/rules/configuration-rules.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ErrorCondition__c",
+      "path": "data/rules/error-conditions.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ProductAction__c",
+      "path": "data/rules/product-actions.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__OptionConstraint__c",
+      "path": "data/rules/option-constraints.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__SearchFilter__c",
+      "path": "data/configuration/search-filters.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__Dimension__c",
+      "path": "data/configuration/dimensions.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__AttributeSet__c",
+      "path": "data/configuration/attribute-sets.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__AttributeItem__c",
+      "path": "data/configuration/attribute-items.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ProductAttributeSet__c",
+      "path": "data/configuration/product-attribute-sets.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__UpgradeSource__c",
+      "path": "data/configuration/upgrade-sources.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__SolutionGroup__c",
+      "path": "data/configuration/solution-groups.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__LookupQuery__c",
+      "path": "data/extensions/lookup-queries.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__CustomAction__c",
+      "path": "data/extensions/custom-actions.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__CustomActionCondition__c",
+      "path": "data/extensions/custom-action-conditions.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__PluginField__c",
+      "path": "data/extensions/plugin-fields.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__PluginParameter__c",
+      "path": "data/extensions/plugin-parameters.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__QuoteCalculatorPlugin__c",
+      "path": "data/extensions/quote-calculator-plugins.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ProductConfiguratorPlugin__c",
+      "path": "data/extensions/product-configurator-plugins.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__PriceCalculatorPlugin__c",
+      "path": "data/extensions/price-calculator-plugins.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "code",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__CustomScript__c",
+      "path": "code/qcp/index.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "docgen",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__QuoteTemplate__c",
+      "path": "data/docgen/quote-templates.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "docgen",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__TemplateSection__c",
+      "path": "data/docgen/template-sections.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "docgen",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__TemplateContent__c",
+      "path": "data/docgen/template-content.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "docgen",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__QuoteTerm__c",
+      "path": "data/docgen/quote-terms.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "docgen",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__Theme__c",
+      "path": "data/docgen/themes.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "docgen",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__RelatedContent__c",
+      "path": "data/docgen/related-content.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "ui",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ColumnMetadata__c",
+      "path": "data/ui/column-metadata.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "ui",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__LineColumn__c",
+      "path": "data/ui/line-columns.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__QuoteProcess__c",
+      "path": "data/guided-selling/quote-processes.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ProcessInput__c",
+      "path": "data/guided-selling/process-inputs.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ProcessInputCondition__c",
+      "path": "data/guided-selling/process-input-conditions.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ProcessInputValue__c",
+      "path": "data/guided-selling/process-input-values.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__ProductProcess__c",
+      "path": "data/guided-selling/product-processes.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__Localization__c",
+      "path": "data/localization/localizations.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__LocalizedValue__c",
+      "path": "data/localization/values.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "ConsumptionSchedule",
+      "path": "data/consumption/schedules.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "ConsumptionRate",
+      "path": "data/consumption/rates.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "ProductConsumptionSchedule",
+      "path": "data/consumption/product-schedules.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__UsageRate__c",
+      "path": "data/consumption/usage-rates.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__RatePlan__c",
+      "path": "data/consumption/rate-plans.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "configuration",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__TieredUsageRate__c",
+      "path": "data/consumption/tiered-usage-rates.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "billing",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "BillingPolicy",
+      "path": "data/billing/policies.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "billing",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "BillingTreatment",
+      "path": "data/billing/treatments.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "billing",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "BillingTreatmentItem",
+      "path": "data/billing/treatment-items.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "tax",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "TaxPolicy",
+      "path": "data/tax/policies.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "tax",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "TaxEngine",
+      "path": "data/tax/engines.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "tax",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "TaxTreatment",
+      "path": "data/tax/treatments.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "tax",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "TaxRate",
+      "path": "data/tax/rates.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "tax",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "SBQQ__TaxExemptionCertificate__c",
+      "path": "data/tax/exemption-certificates.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "selling-model",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "ProductSellingModelOption",
+      "path": "data/selling-models/product-selling-model-options.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "approval",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "sbaa__ApprovalRule__c",
+      "path": "data/approvals/rules.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "approval",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "sbaa__ApprovalCondition__c",
+      "path": "data/approvals/conditions.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "approval",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "sbaa__ApprovalVariable__c",
+      "path": "data/approvals/variables.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "approval",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "sbaa__ApprovalChain__c",
+      "path": "data/approvals/chains.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "approval",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "sbaa__ApprovalStep__c",
+      "path": "data/approvals/approval-steps.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "approval",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "sbaa__Approver__c",
+      "path": "data/approvals/approvers.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "approval",
+      "complete": true,
+      "error": "Object is not installed or accessible",
+      "objectApiName": "sbaa__TrackedField__c",
+      "path": "data/approvals/tracked-fields.json",
+      "records": 0,
+      "status": "unavailable",
+      "totalSize": 0
+    },
+    {
+      "category": "approval",
+      "complete": true,
+      "objectApiName": "EmailTemplate",
+      "path": "data/approvals/email-templates.json",
+      "records": 1,
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "category": "metadata",
+      "complete": true,
+      "objectApiName": "RecordType",
+      "path": "metadata/record-types.json",
+      "records": 1,
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "category": "code",
+      "complete": true,
+      "objectApiName": "ApexClass",
+      "path": "code/apex/classes.json",
+      "records": 1,
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "category": "code",
+      "complete": true,
+      "objectApiName": "ApexTrigger",
+      "path": "code/apex/triggers.json",
+      "records": 1,
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "category": "automation",
+      "complete": true,
+      "objectApiName": "Flow",
+      "path": "code/flows/index.json",
+      "records": 2,
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "category": "automation",
+      "complete": true,
+      "objectApiName": "Flow",
+      "path": "code/flows/definitions.json",
+      "records": 2,
+      "status": "success",
+      "totalSize": 2
+    },
+    {
+      "category": "automation",
+      "complete": true,
+      "objectApiName": "FlowDefinition",
+      "path": "code/flows/definition-index.json",
+      "records": 1,
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "category": "code",
+      "complete": true,
+      "objectApiName": "LightningComponentBundle",
+      "path": "code/lwc/bundles.json",
+      "records": 1,
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "category": "code",
+      "complete": true,
+      "objectApiName": "LightningComponentResource",
+      "path": "code/lwc/index.json",
+      "records": 1,
+      "status": "success",
+      "totalSize": 1
+    },
+    {
+      "category": "code",
+      "complete": true,
+      "objectApiName": "AuraDefinitionBundle",
+      "path": "code/aura/bundles.json",
+      "records": 0,
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "category": "code",
+      "complete": true,
+      "objectApiName": "AuraDefinition",
+      "path": "code/aura/index.json",
+      "records": 0,
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "category": "code",
+      "complete": true,
+      "objectApiName": "ApexPage",
+      "path": "code/visualforce/pages.json",
+      "records": 0,
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "category": "code",
+      "complete": true,
+      "objectApiName": "ApexComponent",
+      "path": "code/visualforce/components.json",
+      "records": 0,
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "category": "metadata",
+      "complete": true,
+      "objectApiName": "ValidationRule",
+      "path": "metadata/validation-rules.json",
+      "records": 0,
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "category": "metadata",
+      "complete": true,
+      "objectApiName": "CustomObject",
+      "path": "metadata/custom-object-definitions.json",
+      "records": 0,
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "category": "metadata",
+      "complete": true,
+      "objectApiName": "ExternalString",
+      "path": "metadata/custom-labels.json",
+      "records": 0,
+      "status": "success",
+      "totalSize": 0
+    },
+    {
+      "category": "metadata",
+      "complete": true,
+      "objectApiName": "StaticResource",
+      "path": "metadata/static-resources.json",
+      "records": 0,
+      "status": "success",
+      "totalSize": 0
+    }
+  ],
+  "capturedArtifactCount": 20,
+  "policy": {
+    "configurationAndCode": "included",
+    "transactionHistory": "excluded",
+    "transactionHistoryReason": "Requires the explicit subscription-data profile to control volume and customer-data exposure."
+  },
+  "profile": "migration-build",
+  "qualifiedArtifactCount": 27,
+  "requestedArtifactCount": 95,
+  "sourceDataGate": {
+    "completeArtifacts": 27,
+    "completeDiscoveryChecks": 12,
+    "contract": "cpq-source-inventory-v1",
+    "contractHash": "0d80319dad24141b45ab583b9dbb4f455ea47a6fd4c8c171a66c6a8a36778fb8",
+    "coveragePercentage": 100.0,
+    "discoveryFailures": [],
+    "expectedArtifacts": 27,
+    "expectedDiscoveryChecks": 12,
+    "failedArtifacts": 0,
+    "gate": "SOURCE DATA",
+    "reconciliationHash": "d4e6ced40573645f1593dc9f0edbe8cf6bb9099d731cd63ca14fb8fa8396c3e3",
+    "schemaVersion": 1,
+    "status": "passed",
+    "waivedArtifacts": 0,
+    "waivedDiscoveryChecks": 0
+  }
+}

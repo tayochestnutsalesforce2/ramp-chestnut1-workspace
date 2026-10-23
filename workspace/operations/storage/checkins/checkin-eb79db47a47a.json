@@ -1,0 +1,22 @@
+{
+  "approvalDecisionId": "dec-workspace-checkin-f4a377b4f7af4029bf8cc43cc46b6720",
+  "baseCommit": "3b106a4f1a2a6d0d86e8a3fb5020e27953406844",
+  "branch": "ramp-project-main",
+  "checkinId": "checkin-eb79db47a47a",
+  "contractVersion": "1.0.0",
+  "customerKey": "chestnut-ramp1-poc",
+  "error": null,
+  "localCommit": "3d6564359852ea30a62a80c50020788bb504fa4b",
+  "manifestFingerprint": "4f7833532f6329e1f2563c4ad5f7d6747bb2114dda99f66e39eea1fbb89ff387",
+  "recordedAt": "2026-10-23T22:51:38Z",
+  "remote": {
+    "owner": "tayochestnutsalesforce2",
+    "repo": "ramp-chestnut1-workspace",
+    "repoId": 1431568606,
+    "url": "https://github.com/tayochestnutsalesforce2/ramp-chestnut1-workspace.git",
+    "visibility": "public"
+  },
+  "remoteCommit": "3d6564359852ea30a62a80c50020788bb504fa4b",
+  "schemaVersion": 1,
+  "status": "pushed-verified"
+}

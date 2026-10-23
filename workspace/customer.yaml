@@ -2,8 +2,14 @@ schemaVersion: 1
 customerKey: chestnut-ramp1-poc
 displayName: Chestnut Ramp 1 (synthetic POC)
 workspaceAliases: []
-orgProfiles: {}
-defaultPins: {}
+orgProfiles:
+  source-baseline:
+    alias: SyntheticSource
+    orgId: 00D000000000001AAA
+    purpose: fake CPQ org (fixture)
+    verifiedFromSnapshot: SyntheticSource-20261023T234627679122Z
+defaultPins:
+  sourceSnapshotId: SyntheticSource-20261023T234627679122Z
 dataPolicy:
   syntheticData: true
   customerDataInGit: true
