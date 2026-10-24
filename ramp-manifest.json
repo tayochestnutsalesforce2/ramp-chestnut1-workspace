@@ -1,5 +1,5 @@
 {
-  "baseCommit": "2d3d1f7c7e9adb2235fe239fe31eeee662fa8249",
+  "baseCommit": "bea536683b8fa00a2dc2af3dd133e825af3ae305",
   "contractVersion": "3.0.0",
   "controlFiles": [
     {
@@ -21,9 +21,9 @@
   "customerKey": "chestnut-ramp1-poc",
   "draftState": {
     "drafts": 1,
-    "historyRows": 3,
+    "historyRows": 4,
     "path": "stages/_project/drafts.json",
-    "sha256": "e79823a794dbd54c7bbe866526abec1e0fa1e2c67176b123f3b6b2992cbdfafd"
+    "sha256": "8a2141c3bfea11a050660dd562a2aee684d6b41a609e075bd5c2a70c021ebc46"
   },
   "excluded": [
     {
@@ -33,21 +33,63 @@
       "retention": "never"
     },
     {
-      "bytes": 12408,
+      "bytes": 0,
+      "path": "gates/events.jsonl.lock",
+      "reason": "runtime lock file",
+      "retention": "local"
+    },
+    {
+      "bytes": 12388,
       "path": "operations/storage/local/revision.json",
       "reason": "this machine's revision and session records",
       "retention": "local"
     },
     {
-      "bytes": 354,
+      "bytes": 349,
       "path": "operations/storage/local/session.json",
       "reason": "this machine's revision and session records",
       "retention": "local"
     },
     {
-      "bytes": 1302,
-      "path": "operations/storage/local/checkouts/2d3d1f7c7e9a-session-d4aa329e2a29.json",
+      "bytes": 1345,
+      "path": "operations/storage/local/checkouts/bea536683b8f-session-563162b84d36.json",
       "reason": "this machine's revision and session records",
+      "retention": "local"
+    },
+    {
+      "bytes": 77,
+      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/.log-retention.json",
+      "reason": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "bytes": 66,
+      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/diagnostics.json",
+      "reason": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "bytes": 627,
+      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/progress.jsonl",
+      "reason": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "bytes": 86,
+      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/result.json",
+      "reason": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "bytes": 588,
+      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/run.json",
+      "reason": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "bytes": 237,
+      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/terminal.log",
+      "reason": "log",
       "retention": "local"
     }
   ],
@@ -414,14 +456,14 @@
       "class": "gate-evidence",
       "path": "gates/current.json",
       "retention": "travel",
-      "sha256": "81b194d7f33366cf15403b6ab35dc52c9ebb17c69564eb406b224061dce53eea"
+      "sha256": "1d12477ac86e311e1fcf783f76e1aeccc3fd90d3a155bb38ca2b3e07826e8a92"
     },
     {
-      "bytes": 942,
+      "bytes": 1413,
       "class": "gate-evidence",
       "path": "gates/events.jsonl",
       "retention": "travel",
-      "sha256": "48f4c192b137b42e07c33df341e17a4ecce07e04db5b8caa2d238fe18a31b9e3"
+      "sha256": "3a17caeebe9b776a6e464ccdd9b3543b39ab44258de2ace2ab6c8cbeab363eb9"
     },
     {
       "bytes": 469,
@@ -429,6 +471,13 @@
       "path": "gates/signoffs/01-assess/reviewed/91c91dd3-bf18-441f-abc6-7ac342bb105e.json",
       "retention": "travel",
       "sha256": "f133044b044f2e5c0d666f25fe7ae01df6293fffba69f0bba450d5fe8dc054a8"
+    },
+    {
+      "bytes": 469,
+      "class": "gate-evidence",
+      "path": "gates/signoffs/01-assess/reviewed/998ed89c-e02f-49bf-b84d-8c36afa82ef7.json",
+      "retention": "travel",
+      "sha256": "84fc2692247d604bfb522c04c144577d80bc6e8b7edbfc5b6551cad8feee0905"
     },
     {
       "bytes": 469,
@@ -459,23 +508,23 @@
       "sha256": "8224e443afc3ee77c69415a8f239df983c551f3b078543b175186a308f281af3"
     },
     {
-      "bytes": 2559,
+      "bytes": 2803,
       "class": "draft-state",
       "path": "stages/_project/drafts.json",
       "retention": "travel",
-      "sha256": "e79823a794dbd54c7bbe866526abec1e0fa1e2c67176b123f3b6b2992cbdfafd"
+      "sha256": "8a2141c3bfea11a050660dd562a2aee684d6b41a609e075bd5c2a70c021ebc46"
     }
   ],
   "findings": [],
-  "fingerprint": "b3f5ccc145b75da6990708be2c349c35ff79ad9de62c0e0c74c220983cb00c9a",
-  "generatedAt": "2026-10-24T03:27:10Z",
+  "fingerprint": "2db31e8f50d45b5e03f5a715cb36e2f0cd359aa93ea96fbad81effd5e927c350",
+  "generatedAt": "2026-10-24T11:28:54Z",
   "rampCommit": null,
   "retentionPolicyVersion": 3,
   "schemaVersion": 3,
   "totals": {
-    "bytes": 186422,
-    "excludedBytes": 59120,
-    "excludedFiles": 4,
-    "files": 59
+    "bytes": 187606,
+    "excludedBytes": 60819,
+    "excludedFiles": 11,
+    "files": 60
   }
 }

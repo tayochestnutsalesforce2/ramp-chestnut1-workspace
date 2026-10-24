@@ -1,0 +1,13 @@
+{
+  "customerKey": "chestnut-ramp1-poc",
+  "decision": "approved",
+  "evidenceHash": "d41424474192dea495cb863c9a899d3bc4aa195cb7ddbab14d2f6e4e0ac83f4a",
+  "gate": "REVIEWED",
+  "reason": "Assessment of SyntheticSource-20261023T234627679122Z reviewed in RAMP (Stage 01 review card)",
+  "reviewer": "Consultant A",
+  "reviewerRole": "revenue-cloud-consultant",
+  "schemaVersion": 2,
+  "signedAt": "2026-10-24T11:28:33Z",
+  "stageId": "01-assess",
+  "waiverScope": null
+}
