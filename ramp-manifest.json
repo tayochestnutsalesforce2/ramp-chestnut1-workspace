@@ -1,51 +1,91 @@
 {
-  "contractVersion": "1.0.0",
+  "baseCommit": "68338cb1ec28a917191e03cf64aab8371e31e40c",
+  "contractVersion": "2.0.0",
   "customerKey": "chestnut-ramp1-poc",
+  "draftState": {
+    "drafts": 1,
+    "historyRows": 1,
+    "path": "stages/_project/drafts.json",
+    "sha256": "2a1cb6c7b955fca96cfc9aacdfaeab346ce1905861c28a94f20bfba0f8268e2f"
+  },
   "excluded": [
     {
-      "bytes": 1371,
-      "path": "decisions/platform-storage/workspace-checkin/current.json",
-      "reason": "storage decision head (rewritten by each approval)"
-    },
-    {
-      "bytes": 1223,
-      "path": "decisions/platform-storage/workspace-checkin/log.jsonl",
-      "reason": "storage decision log (appended by each approval)"
+      "bytes": 45056,
+      "path": "ramp.db",
+      "reason": "the live draft database (its drafts travel as stages/_project/drafts.json)",
+      "retention": "never"
     },
     {
       "bytes": 0,
-      "path": "decisions/platform-storage/workspace-checkin/log.jsonl.lock",
-      "reason": "runtime lock file"
+      "path": "gates/events.jsonl.lock",
+      "reason": "runtime lock file",
+      "retention": "local"
     },
     {
-      "bytes": 1702,
-      "path": "operations/storage/git-audit.jsonl",
-      "reason": "storage audit log (appended by each check-in)"
+      "bytes": 12002,
+      "path": "operations/storage/local/revision.json",
+      "reason": "this machine's revision and session records",
+      "retention": "local"
     },
     {
-      "bytes": 1085,
-      "path": "snapshots/snap-poc-1/snapshot-manifest.json",
-      "reason": "not in the storage allowlist"
+      "bytes": 349,
+      "path": "operations/storage/local/session.json",
+      "reason": "this machine's revision and session records",
+      "retention": "local"
     },
     {
-      "bytes": 370,
-      "path": "snapshots/snap-poc-1/snapshot/data/Account.json",
-      "reason": "not in the storage allowlist"
+      "bytes": 1420,
+      "path": "operations/storage/local/checkouts/68338cb1ec28-session-00dcaf211aee.json",
+      "reason": "this machine's revision and session records",
+      "retention": "local"
     },
     {
-      "bytes": 332,
-      "path": "snapshots/snap-poc-1/snapshot/data/Contract.json",
-      "reason": "not in the storage allowlist"
+      "bytes": 2264,
+      "path": "operations/storage/manifests/4f7833532f6329e1f2563c4ad5f7d6747bb2114dda99f66e39eea1fbb89ff387.json",
+      "reason": "planned manifests (the committed ramp-manifest.json is the record)",
+      "retention": "local"
     },
     {
-      "bytes": 596,
-      "path": "snapshots/snap-poc-1/snapshot/data/Product2.json",
-      "reason": "not in the storage allowlist"
+      "bytes": 15828,
+      "path": "operations/storage/manifests/6112c67264a4f353a2dda5850f0c67bc5194a27946ff80e2504bf37273cb51e9.json",
+      "reason": "planned manifests (the committed ramp-manifest.json is the record)",
+      "retention": "local"
     },
     {
-      "bytes": 1075,
-      "path": "snapshots/snap-poc-1/snapshot/data/SBQQ__Subscription__c.json",
-      "reason": "not in the storage allowlist"
+      "bytes": 77,
+      "path": "stages/01-assess/runs/01-assess-87c32a7b17ac/.log-retention.json",
+      "reason": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "bytes": 66,
+      "path": "stages/01-assess/runs/01-assess-87c32a7b17ac/diagnostics.json",
+      "reason": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "bytes": 627,
+      "path": "stages/01-assess/runs/01-assess-87c32a7b17ac/progress.jsonl",
+      "reason": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "bytes": 86,
+      "path": "stages/01-assess/runs/01-assess-87c32a7b17ac/result.json",
+      "reason": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "bytes": 588,
+      "path": "stages/01-assess/runs/01-assess-87c32a7b17ac/run.json",
+      "reason": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "bytes": 237,
+      "path": "stages/01-assess/runs/01-assess-87c32a7b17ac/terminal.log",
+      "reason": "log",
+      "retention": "local"
     }
   ],
   "files": [
@@ -53,348 +93,419 @@
       "bytes": 925,
       "class": "customer-identity",
       "path": "customer.yaml",
+      "retention": "travel",
       "sha256": "34b3749eff240b7a4b80f41377632d7801f392c11022b3cc878527fdf8601ad2"
     },
     {
       "bytes": 262,
       "class": "sealed-artifact",
       "path": "artifacts/assessment-summary.json",
+      "retention": "travel",
       "sha256": "98b38529ba021fc128b6183924e1ca166159d155f18606e15d270fb625717046"
     },
     {
       "bytes": 1371,
-      "class": "decision-evidence",
+      "class": "checkin-approval",
       "path": "decisions/platform-storage/workspace-checkin/dec-workspace-checkin-f4a377b4f7af4029bf8cc43cc46b6720.json",
+      "retention": "storage-evidence",
       "sha256": "bbb4b60bce9b46dccfa207101c2160cea43d921ef9e835e6a3edfe23022e3275"
     },
     {
       "bytes": 104,
       "class": "snapshot-reference",
       "path": "export/SyntheticSource-20261023T234627679122Z/source-reference.json",
+      "retention": "travel",
       "sha256": "08e3fb9937c1da641dd1149cec42f9f56b208bcf09ffdaf4ae8ea9f028d8a903"
     },
     {
       "bytes": 6141,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/checksums.json",
+      "retention": "travel",
       "sha256": "cf1e3274b250319c857d73781853d22ee1c0ef8cf1ee1b0e16a4c07fea9d3036"
     },
     {
       "bytes": 58352,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/extraction-report.json",
+      "retention": "travel",
       "sha256": "c6efeea17f57d02f900a628779b9d88c64f4d3b5cfd5c823893139671f3e2acc"
     },
     {
       "bytes": 10021,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/snapshot-manifest.json",
+      "retention": "travel",
       "sha256": "e654bea457a960fc3249dee6b53336e83482cb9a7c111e83b53e32f0ecf1ab80"
     },
     {
       "bytes": 222,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/apex/classes.json",
+      "retention": "travel",
       "sha256": "4a62d25d66cadcfc59a0a99d4f6e039bfacaf1363e03f6575cc04919aad0fc27"
     },
     {
       "bytes": 470,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/apex/index.json",
+      "retention": "travel",
       "sha256": "ecea811e367c09466cfef454f56f8cba8239f813e85df0c96ca44cb70101acbf"
     },
     {
       "bytes": 251,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/apex/triggers.json",
+      "retention": "travel",
       "sha256": "ec393d7f040936ae67a04b655ac1f0e98c47206c771b9eaf3d54c4004bd1a6ce"
     },
     {
       "bytes": 3,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/aura/bundles.json",
+      "retention": "travel",
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     {
       "bytes": 3,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/aura/index.json",
+      "retention": "travel",
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     {
       "bytes": 197,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/flows/definition-index.json",
+      "retention": "travel",
       "sha256": "7d4f6206fbc97d7402dc58d537b875858415eac93f94aeeaf0e2d59ff104b492"
     },
     {
       "bytes": 428,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/flows/definitions.json",
+      "retention": "travel",
       "sha256": "99443f2e1a4c91841b7844aed2b9c299dc9f03320e665d08b345c412cfbdde4b"
     },
     {
       "bytes": 328,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/flows/index.json",
+      "retention": "travel",
       "sha256": "4a6ee7a6006da71844414d2d62013894c9b2963b738090f80dc574038fc8fdbf"
     },
     {
       "bytes": 107,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/lwc/bundles.json",
+      "retention": "travel",
       "sha256": "f80539cf9329ab4eeef36b38f4d5c5e572829d57d3518f12942d549b0f562da8"
     },
     {
       "bytes": 258,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/lwc/index.json",
+      "retention": "travel",
       "sha256": "61f45301bf91614c12782830eae60717c7f897eac1101c8a50b14b2820cab7fd"
     },
     {
       "bytes": 3,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/visualforce/components.json",
+      "retention": "travel",
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     {
       "bytes": 3,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/code/visualforce/pages.json",
+      "retention": "travel",
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     {
       "bytes": 5347,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/customization/coverage.json",
+      "retention": "travel",
       "sha256": "b298c768beb20e4da25c38d33c4f0f73f0f9ec1f63e6871b8be03a0e7c037e8e"
     },
     {
       "bytes": 3419,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/customization/dependencies.json",
+      "retention": "travel",
       "sha256": "074557c95d43117f8e4e9f7f47fa823c6fea8911b44de2f797f8a3ea34ee80d8"
     },
     {
       "bytes": 18218,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/customization/inventory.json",
+      "retention": "travel",
       "sha256": "dfd52a4f2418b2c0f65c7beaa2d8d2527df32c5219ebf70e53866a6cbbb7e138"
     },
     {
       "bytes": 769,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/customization/manifest.json",
+      "retention": "travel",
       "sha256": "2a8504f4d99214b9a158a37ce59443488e65e64461f7be202b6e33682247f7d6"
     },
     {
       "bytes": 33,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/data/approvals/email-templates.csv",
+      "retention": "travel",
       "sha256": "8b7c0a5984868642c443871c972ab72c0528f4d166285f2b141ab6cf3b495583"
     },
     {
       "bytes": 64,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/data/approvals/email-templates.json",
+      "retention": "travel",
       "sha256": "8f2b876b6dea4a278fb802d760628b642b21f66fa6ced6008322bf068b6567ab"
     },
     {
       "bytes": 28,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/data/bundles/products.csv",
+      "retention": "travel",
       "sha256": "0f8d5bde82a718cf2371f21a4ab0ae717bab957a04e59e456a5812f1e820873c"
     },
     {
       "bytes": 59,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/data/bundles/products.json",
+      "retention": "travel",
       "sha256": "036b8893795f42989d02c32ded82f51d9416647278e9be0f7317df2dda2f35ec"
     },
     {
       "bytes": 34,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/data/pricing/pricebook-entries.csv",
+      "retention": "travel",
       "sha256": "2ee18ed0860bfc490cbd7eb605c94a9d283ba31454159d739457d9041f48b1c2"
     },
     {
       "bytes": 65,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/data/pricing/pricebook-entries.json",
+      "retention": "travel",
       "sha256": "788321ff5d19c8fa11967b56b393b727e3e3b6d899eb5aa6ed0a635bf3a288bb"
     },
     {
       "bytes": 30,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/data/pricing/pricebooks.csv",
+      "retention": "travel",
       "sha256": "96f72cff13f677fd8efedb04230d73e508ae88b16b75b24c65dc72015932d9ef"
     },
     {
       "bytes": 61,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/data/pricing/pricebooks.json",
+      "retention": "travel",
       "sha256": "f2baa37de2b358096cf8300770e5883680e9c4fba4c6b4b98b3eff590db12e44"
     },
     {
       "bytes": 3,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/metadata/custom-labels.json",
+      "retention": "travel",
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     {
       "bytes": 3,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/metadata/custom-object-definitions.json",
+      "retention": "travel",
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     {
       "bytes": 30,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/metadata/record-types.csv",
+      "retention": "travel",
       "sha256": "ee955b43d3d224b2ea6a29a8b724740f506956014c7292647e11651408fcf1a3"
     },
     {
       "bytes": 61,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/metadata/record-types.json",
+      "retention": "travel",
       "sha256": "74021ed54a5802d5b38674edd54c8ef1f8d95628b6609689989446eadc17508b"
     },
     {
       "bytes": 3,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/metadata/static-resources.json",
+      "retention": "travel",
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     {
       "bytes": 3,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/metadata/validation-rules.json",
+      "retention": "travel",
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     {
       "bytes": 49,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/org/identity.json",
+      "retention": "travel",
       "sha256": "6e7e095fc1c426258ffc98d80e57f3e3f86554462ebc77114fab1278170dd4cd"
     },
     {
       "bytes": 79,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/org/packages.csv",
+      "retention": "travel",
       "sha256": "e58db23dccdc3aa2b56031e9f7182db918ca1c9c725616fe5d71979e6b2c760a"
     },
     {
       "bytes": 109,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/org/packages.json",
+      "retention": "travel",
       "sha256": "f8956d3c7178e332218940c0a5478fce8fd1cee429a4e1b9724120ab3505bd4b"
     },
     {
       "bytes": 69,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/references/field-usage.json",
+      "retention": "travel",
       "sha256": "47921a995cf2ff425d6ca9625a0e5f11f4f7501c0d3a561951aca30f233072ef"
     },
     {
       "bytes": 1224,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/schema/fields.csv",
+      "retention": "travel",
       "sha256": "579247512c304f623d05f365ad1b90acc142ae5bc0ed3456e7324660105280a7"
     },
     {
       "bytes": 6816,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/schema/fields.json",
+      "retention": "travel",
       "sha256": "2211efb93b6705440e5b968c306b731049764cb0bd48874eb1763a268170a0b7"
     },
     {
       "bytes": 2999,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/schema/objects.csv",
+      "retention": "travel",
       "sha256": "e487897c25a40796b5968ed3b4072861d309a52a88fc42814d01c6a440e2fb73"
     },
     {
       "bytes": 16088,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/schema/objects.json",
+      "retention": "travel",
       "sha256": "7fed5a8ee75722cf1c0ce56336069ebce34aa7825cefc168dedf1ecc25f4e7c7"
     },
     {
       "bytes": 27715,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/snapshot/coverage.json",
+      "retention": "travel",
       "sha256": "8cdbb8a2f647a8f9d60bf1deb7120d85dc05470787c5dd87472584ac12f7c88c"
     },
     {
       "bytes": 240,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/snapshot/discovered-inventory.json",
+      "retention": "travel",
       "sha256": "e54f8c0e1a2aadd559488d3ff75421c22991c710af4cf2778c7906240a91f6c4"
     },
     {
       "bytes": 6545,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/snapshot/expected-inventory.json",
+      "retention": "travel",
       "sha256": "1f8f641dc829c7dbd58e2368702dd1d633c4378084dbab6530a6d122e02763c3"
     },
     {
       "bytes": 9323,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/snapshot/reconciliation.json",
+      "retention": "travel",
       "sha256": "d4e6ced40573645f1593dc9f0edbe8cf6bb9099d731cd63ca14fb8fa8396c3e3"
     },
     {
       "bytes": 547,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/snapshot/source-data-gate.json",
+      "retention": "travel",
       "sha256": "50f81e1e7f6b4c185f05e2a137ad1a2a01bb08b99567c61ea0798a7280ea59ca"
     },
     {
       "bytes": 42,
       "class": "sealed-source-snapshot",
       "path": "export/snapshots/SyntheticSource-20261023T234627679122Z/snapshot/waivers.json",
+      "retention": "travel",
       "sha256": "f53faf8eaaa5cf69ac76e12d5e684f31890e51d6f9f090148df4005d74e155c9"
     },
     {
+      "bytes": 771,
+      "class": "gate-evidence",
+      "path": "gates/current.json",
+      "retention": "travel",
+      "sha256": "1866edeeff0a6349f01b2e4dbb4104c47144482feca7e23c287291176dd76e9d"
+    },
+    {
+      "bytes": 471,
+      "class": "gate-evidence",
+      "path": "gates/events.jsonl",
+      "retention": "travel",
+      "sha256": "40d7a3fbf9a9f1e193834afcf88b841a8c5c86a638c867048063f9810850ded8"
+    },
+    {
+      "bytes": 469,
+      "class": "gate-evidence",
+      "path": "gates/signoffs/01-assess/reviewed/91c91dd3-bf18-441f-abc6-7ac342bb105e.json",
+      "retention": "travel",
+      "sha256": "f133044b044f2e5c0d666f25fe7ae01df6293fffba69f0bba450d5fe8dc054a8"
+    },
+    {
       "bytes": 850,
-      "class": "operation-evidence",
+      "class": "checkin-receipt",
       "path": "operations/storage/checkins/checkin-eb79db47a47a.json",
+      "retention": "storage-evidence",
       "sha256": "0e5f4bc5b2263ae2710c28aa8e22557afe650e9460a88208f9f8518f97a68f05"
-    },
-    {
-      "bytes": 2264,
-      "class": "operation-evidence",
-      "path": "operations/storage/manifests/4f7833532f6329e1f2563c4ad5f7d6747bb2114dda99f66e39eea1fbb89ff387.json",
-      "sha256": "8ed20125b7b7985914ce09189ab4c37580d8ad0f7cd0a01d2f5fe6a19612e43a"
-    },
-    {
-      "bytes": 15828,
-      "class": "operation-evidence",
-      "path": "operations/storage/manifests/6112c67264a4f353a2dda5850f0c67bc5194a27946ff80e2504bf37273cb51e9.json",
-      "sha256": "bc1b99689e3400ff9f7711925af421fe348ba8f8de203908ebb3900b4a64940e"
     },
     {
       "bytes": 678,
       "class": "pin",
       "path": "pins/source-snapshot.json",
+      "retention": "travel",
       "sha256": "75c106086dd4930e5753da2a2033d8a32fc3ec23a7e31738142bb7edb54f3b46"
     },
     {
       "bytes": 160,
       "class": "report",
       "path": "reports/README.md",
+      "retention": "travel",
       "sha256": "8224e443afc3ee77c69415a8f239df983c551f3b078543b175186a308f281af3"
+    },
+    {
+      "bytes": 1305,
+      "class": "draft-state",
+      "path": "stages/_project/drafts.json",
+      "retention": "travel",
+      "sha256": "2a1cb6c7b955fca96cfc9aacdfaeab346ce1905861c28a94f20bfba0f8268e2f"
     }
   ],
   "findings": [],
-  "fingerprint": "3e6a83e7ea94963122dfb060f13b36573390d4db9fad6ba10020e1e431a31e75",
-  "generatedAt": "2026-10-23T23:47:39Z",
-  "rampCommit": "99cc160f9faeb0f638b061d1b3e5aad379cdd9f2",
-  "schemaVersion": 1,
+  "fingerprint": "1e70872962e562c8ff7668d30b10a0e5add7f7977435cb686d2286ccac4fd9dc",
+  "generatedAt": "2026-10-24T01:36:54Z",
+  "rampCommit": null,
+  "retentionPolicyVersion": 2,
+  "schemaVersion": 2,
   "totals": {
-    "bytes": 199304,
-    "excludedBytes": 7754,
-    "excludedFiles": 9,
-    "files": 56
+    "bytes": 184228,
+    "excludedBytes": 78600,
+    "excludedFiles": 13,
+    "files": 58
   }
 }
