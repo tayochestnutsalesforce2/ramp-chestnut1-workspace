@@ -1,0 +1,26 @@
+{
+  "approval": {
+    "actor": "Consultant Phase3",
+    "channel": "cli-argv",
+    "contentFingerprint": "be2a06b3c12ec07c058382bf118e565f47ef4dd3763b7883ec9e25e6b6d4398b",
+    "decidedAt": "2026-10-24T03:27:10Z",
+    "decisionId": "dec-workspace-checkin-dd7cd9b851e74e7688ab731bd2e450ef",
+    "identityMode": "session-attested",
+    "sealFingerprint": "bb4a821405d2f360114c83cb0a68118110632c4eb6b7e5ee8810192610f39eab",
+    "sessionId": "session-d4aa329e2a29"
+  },
+  "attestation": "Recorded by RAMP. The consultant name is self-attested, not authenticated; this record is not an approval.",
+  "baseCommit": "2d3d1f7c7e9adb2235fe239fe31eeee662fa8249",
+  "branch": "ramp-project-main",
+  "checkinId": "checkin-65e3d6acc8de",
+  "contractVersion": "1.0.0",
+  "customerKey": "chestnut-ramp1-poc",
+  "manifestFingerprint": "b3f5ccc145b75da6990708be2c349c35ff79ad9de62c0e0c74c220983cb00c9a",
+  "manifestSchemaVersion": 3,
+  "recordedAt": "2026-10-24T03:27:12Z",
+  "remote": {
+    "repoId": 1431568606,
+    "url": "https://github.com/tayochestnutsalesforce2/ramp-chestnut1-workspace.git"
+  },
+  "schemaVersion": 1
+}

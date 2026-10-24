@@ -1,0 +1,366 @@
+{
+  "policyVersion": 3,
+  "rules": [
+    {
+      "class": "database",
+      "pattern": "ramp.db*",
+      "purpose": "the live draft database (its drafts travel as stages/_project/drafts.json)",
+      "retention": "never"
+    },
+    {
+      "class": "database",
+      "pattern": "**/*.sqlite*",
+      "purpose": "a database file",
+      "retention": "never"
+    },
+    {
+      "class": "database",
+      "pattern": "**/*.db",
+      "purpose": "a database file",
+      "retention": "never"
+    },
+    {
+      "class": "database",
+      "pattern": "**/*.db-journal",
+      "purpose": "a database journal",
+      "retention": "never"
+    },
+    {
+      "class": "credential",
+      "pattern": "**/.sf/**",
+      "purpose": "Salesforce CLI auth",
+      "retention": "never"
+    },
+    {
+      "class": "credential",
+      "pattern": "**/.sfdx/**",
+      "purpose": "Salesforce CLI auth",
+      "retention": "never"
+    },
+    {
+      "class": "credential",
+      "pattern": "**/*.pem",
+      "purpose": "key material",
+      "retention": "never"
+    },
+    {
+      "class": "credential",
+      "pattern": "**/*.key",
+      "purpose": "key material",
+      "retention": "never"
+    },
+    {
+      "class": "credential",
+      "pattern": "**/.env",
+      "purpose": "environment file",
+      "retention": "never"
+    },
+    {
+      "class": "credential",
+      "pattern": "**/.env.*",
+      "purpose": "environment file",
+      "retention": "never"
+    },
+    {
+      "class": "foreign-repository",
+      "pattern": "**/.git/**",
+      "purpose": "a nested Git repository",
+      "retention": "never"
+    },
+    {
+      "class": "sealed-review-preview",
+      "pattern": "stages/02-products-bundles/scopes/*/converter-inputs/*/preview.html",
+      "purpose": "the native preview a Stage 02 plan approval binds by hash (not reproducible)",
+      "retention": "travel"
+    },
+    {
+      "class": "database-backup",
+      "pattern": "backups/**",
+      "purpose": "rotating copies of the local database",
+      "retention": "local"
+    },
+    {
+      "class": "local-state",
+      "pattern": "operations/storage/local/**",
+      "purpose": "this machine's revision and session records",
+      "retention": "local"
+    },
+    {
+      "class": "raw-export",
+      "pattern": "export/**",
+      "purpose": "raw extraction exports stay local (the pinned sealed snapshot is the exception)",
+      "retention": "local"
+    },
+    {
+      "class": "bytecode",
+      "pattern": "**/*.pyc",
+      "purpose": "regenerable bytecode",
+      "retention": "local"
+    },
+    {
+      "class": "bytecode",
+      "pattern": "**/__pycache__/**",
+      "purpose": "regenerable bytecode",
+      "retention": "local"
+    },
+    {
+      "class": "os-metadata",
+      "pattern": "**/.DS_Store",
+      "purpose": "OS metadata",
+      "retention": "local"
+    },
+    {
+      "class": "archive",
+      "pattern": "**/*.zip",
+      "purpose": "archive",
+      "retention": "local"
+    },
+    {
+      "class": "temporary",
+      "pattern": "**/*.tmp",
+      "purpose": "temporary file",
+      "retention": "local"
+    },
+    {
+      "class": "temporary",
+      "pattern": "**/*~",
+      "purpose": "editor backup",
+      "retention": "local"
+    },
+    {
+      "class": "temporary",
+      "pattern": "**/.customer.*.yaml",
+      "purpose": "half-written customer.yaml",
+      "retention": "local"
+    },
+    {
+      "class": "log",
+      "pattern": "**/*.log",
+      "purpose": "log",
+      "retention": "local"
+    },
+    {
+      "class": "runtime-lock",
+      "pattern": "**/*.lock",
+      "purpose": "runtime lock file",
+      "retention": "local"
+    },
+    {
+      "class": "run-record",
+      "pattern": "**/runs/**",
+      "purpose": "run logs and run records",
+      "retention": "local"
+    },
+    {
+      "class": "engine-copy",
+      "pattern": "**/native-workspaces/**",
+      "purpose": "copied engine workspaces (regenerated from the sealed build)",
+      "retention": "local"
+    },
+    {
+      "class": "engine-copy",
+      "pattern": "stages/03-context/native-build/*/scripts/**",
+      "purpose": "Context build engine scripts (copied per build)",
+      "retention": "local"
+    },
+    {
+      "class": "engine-copy",
+      "pattern": "stages/03-context/native-build/*/source/**",
+      "purpose": "Context build source copy (copied per build)",
+      "retention": "local"
+    },
+    {
+      "class": "engine-copy",
+      "pattern": "stages/03-context/native-classifier/**",
+      "purpose": "Context classifier engine copy (regenerated)",
+      "retention": "local"
+    },
+    {
+      "class": "capacity-scratch",
+      "pattern": "stages/03-context/native-capacity/**",
+      "purpose": "Context capacity read scratch",
+      "retention": "local"
+    },
+    {
+      "class": "capacity-scratch",
+      "pattern": "stages/03-context/native-capacity-acquire/**",
+      "purpose": "Context capacity read scratch",
+      "retention": "local"
+    },
+    {
+      "class": "capacity-scratch",
+      "pattern": "stages/03-context/native-capacity-prereview/**",
+      "purpose": "Context capacity read scratch",
+      "retention": "local"
+    },
+    {
+      "class": "context-capacity-latest",
+      "pattern": "stages/03-context/capacity/current.json",
+      "purpose": "an informational Context capacity read no decision binds (refresh after restore)",
+      "retention": "local"
+    },
+    {
+      "class": "context-capacity-latest",
+      "pattern": "stages/03-context/target-fields/current.json",
+      "purpose": "an informational target-field read no decision binds (refresh after restore)",
+      "retention": "local"
+    },
+    {
+      "class": "capacity-history",
+      "pattern": "stages/03-context/capacity/context-capacity-*.json",
+      "purpose": "a superseded Context capacity read",
+      "retention": "local"
+    },
+    {
+      "class": "capacity-history",
+      "pattern": "stages/03-context/target-fields/context-target-fields-*.json",
+      "purpose": "a superseded target-field read",
+      "retention": "local"
+    },
+    {
+      "class": "capacity-pin",
+      "pattern": "pins/context-capacity.json",
+      "purpose": "names a capacity snapshot that stays local; re-read after restore",
+      "retention": "local"
+    },
+    {
+      "class": "capacity-pin",
+      "pattern": "pins/context-prereview-capacity.json",
+      "purpose": "names a capacity snapshot that stays local; re-read after restore",
+      "retention": "local"
+    },
+    {
+      "class": "capacity-pin",
+      "pattern": "pins/context-target-fields.json",
+      "purpose": "names a capacity snapshot that stays local; re-read after restore",
+      "retention": "local"
+    },
+    {
+      "class": "render",
+      "pattern": "**/preview.html",
+      "purpose": "regenerable render",
+      "retention": "local"
+    },
+    {
+      "class": "render",
+      "pattern": "stages/03-context/review-workbench/*/*/**",
+      "purpose": "Context review page render + engine copies (context_review_workbench_html rebuilds it from the sealed classification)",
+      "retention": "local"
+    },
+    {
+      "class": "render",
+      "pattern": "stages/02-products-bundles/scopes/*/live-previews/*/rca-mockup-*.html",
+      "purpose": "RCA mockup (generate_live_preview rebuilds it from the sealed plan; the state says 'regenerate' when missing)",
+      "retention": "local"
+    },
+    {
+      "class": "progress-marker",
+      "pattern": "stages/02-products-bundles/scopes/*/corrections-replan.json",
+      "purpose": "transient re-plan progress (self-heals)",
+      "retention": "local"
+    },
+    {
+      "class": "cache",
+      "pattern": "artifacts/*/analysis-cache/**",
+      "purpose": "regenerable analysis cache",
+      "retention": "local"
+    },
+    {
+      "class": "cache",
+      "pattern": "**/cache/**",
+      "purpose": "cache",
+      "retention": "local"
+    },
+    {
+      "class": "cache",
+      "pattern": "**/.cache/**",
+      "purpose": "cache",
+      "retention": "local"
+    },
+    {
+      "class": "extraction-checkpoint",
+      "pattern": "operations/*/checkpoints/**",
+      "purpose": "unsealed extraction checkpoints",
+      "retention": "local"
+    },
+    {
+      "class": "checkin-approval",
+      "pattern": "decisions/platform-storage/**",
+      "purpose": "local check-in approvals (each commit carries its ramp/checkins record)",
+      "retention": "local"
+    },
+    {
+      "class": "storage-operation",
+      "pattern": "operations/storage/**",
+      "purpose": "local check-in receipts, plans and audit (the commit is the record)",
+      "retention": "local"
+    },
+    {
+      "class": "customer-identity",
+      "pattern": "customer.yaml",
+      "purpose": "customer identity and project settings",
+      "retention": "travel"
+    },
+    {
+      "class": "draft-state",
+      "pattern": "stages/_project/drafts.json",
+      "purpose": "recoverable consultant drafts",
+      "retention": "travel"
+    },
+    {
+      "class": "pin",
+      "pattern": "pins/**",
+      "purpose": "pins of sealed inputs",
+      "retention": "travel"
+    },
+    {
+      "class": "gate-evidence",
+      "pattern": "gates/**",
+      "purpose": "gate events, projection and named sign-offs",
+      "retention": "travel"
+    },
+    {
+      "class": "decision-evidence",
+      "pattern": "decisions/**",
+      "purpose": "saved consultant decisions and approved mappings",
+      "retention": "travel"
+    },
+    {
+      "class": "sealed-artifact",
+      "pattern": "artifacts/**",
+      "purpose": "sealed stage outputs and the artifact registry",
+      "retention": "travel"
+    },
+    {
+      "class": "handoff",
+      "pattern": "handoffs/**",
+      "purpose": "stage handoffs",
+      "retention": "travel"
+    },
+    {
+      "class": "report",
+      "pattern": "reports/**",
+      "purpose": "assessment and stage reports",
+      "retention": "travel"
+    },
+    {
+      "class": "deploy-receipt",
+      "pattern": "deploy/events.jsonl",
+      "purpose": "the deploy ledger",
+      "retention": "travel"
+    },
+    {
+      "class": "operation-evidence",
+      "pattern": "operations/**",
+      "purpose": "authorizations and receipts",
+      "retention": "travel"
+    },
+    {
+      "class": "stage-output",
+      "pattern": "stages/**",
+      "purpose": "stage outputs: approved batches, plans, evidence",
+      "retention": "travel"
+    }
+  ],
+  "schemaVersion": 1
+}
