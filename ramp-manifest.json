@@ -1,5 +1,5 @@
 {
-  "baseCommit": "bea536683b8fa00a2dc2af3dd133e825af3ae305",
+  "baseCommit": "be8b86f02d04b09f6456628f0ab17b1a7199bd1c",
   "contractVersion": "3.0.0",
   "controlFiles": [
     {
@@ -21,9 +21,9 @@
   "customerKey": "chestnut-ramp1-poc",
   "draftState": {
     "drafts": 1,
-    "historyRows": 4,
+    "historyRows": 5,
     "path": "stages/_project/drafts.json",
-    "sha256": "8a2141c3bfea11a050660dd562a2aee684d6b41a609e075bd5c2a70c021ebc46"
+    "sha256": "5deda7ef676e5484b8107d8152757cfde6b45ef654cc19541ea209bb13494e60"
   },
   "excluded": [
     {
@@ -39,7 +39,7 @@
       "retention": "local"
     },
     {
-      "bytes": 12388,
+      "bytes": 12592,
       "path": "operations/storage/local/revision.json",
       "reason": "this machine's revision and session records",
       "retention": "local"
@@ -51,44 +51,44 @@
       "retention": "local"
     },
     {
-      "bytes": 1345,
-      "path": "operations/storage/local/checkouts/bea536683b8f-session-563162b84d36.json",
+      "bytes": 1340,
+      "path": "operations/storage/local/checkouts/be8b86f02d04-session-68abaa20024e.json",
       "reason": "this machine's revision and session records",
       "retention": "local"
     },
     {
       "bytes": 77,
-      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/.log-retention.json",
+      "path": "stages/01-assess/runs/01-assess-691390717646/.log-retention.json",
       "reason": "run logs and run records",
       "retention": "local"
     },
     {
       "bytes": 66,
-      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/diagnostics.json",
+      "path": "stages/01-assess/runs/01-assess-691390717646/diagnostics.json",
       "reason": "run logs and run records",
       "retention": "local"
     },
     {
       "bytes": 627,
-      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/progress.jsonl",
+      "path": "stages/01-assess/runs/01-assess-691390717646/progress.jsonl",
       "reason": "run logs and run records",
       "retention": "local"
     },
     {
       "bytes": 86,
-      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/result.json",
+      "path": "stages/01-assess/runs/01-assess-691390717646/result.json",
       "reason": "run logs and run records",
       "retention": "local"
     },
     {
       "bytes": 588,
-      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/run.json",
+      "path": "stages/01-assess/runs/01-assess-691390717646/run.json",
       "reason": "run logs and run records",
       "retention": "local"
     },
     {
       "bytes": 237,
-      "path": "stages/01-assess/runs/01-assess-b148c26db9d3/terminal.log",
+      "path": "stages/01-assess/runs/01-assess-691390717646/terminal.log",
       "reason": "log",
       "retention": "local"
     }
@@ -456,14 +456,14 @@
       "class": "gate-evidence",
       "path": "gates/current.json",
       "retention": "travel",
-      "sha256": "1d12477ac86e311e1fcf783f76e1aeccc3fd90d3a155bb38ca2b3e07826e8a92"
+      "sha256": "960a455c37fcbe642936819d375b2d83410a78f97b006cab545a0a34a58a477e"
     },
     {
-      "bytes": 1413,
+      "bytes": 1884,
       "class": "gate-evidence",
       "path": "gates/events.jsonl",
       "retention": "travel",
-      "sha256": "3a17caeebe9b776a6e464ccdd9b3543b39ab44258de2ace2ab6c8cbeab363eb9"
+      "sha256": "edf55d47933844d250220f45402373c270f70fe2e4ffffc477cdcc82e836ad83"
     },
     {
       "bytes": 469,
@@ -487,6 +487,13 @@
       "sha256": "50133092964ec8f2da28e907b6929a4d1e63da40cff3119e67ae4141d86833ed"
     },
     {
+      "bytes": 469,
+      "class": "gate-evidence",
+      "path": "gates/signoffs/01-assess/reviewed/fd5b6892-4e50-4f7f-a7bb-331e850d8f12.json",
+      "retention": "travel",
+      "sha256": "7a217a211c784bd0337397b360ed21134bfc3b0386a4d2a0e6dc8e9e807d9fcb"
+    },
+    {
       "bytes": 850,
       "class": "legacy-checkin-evidence",
       "path": "operations/storage/checkins/checkin-eb79db47a47a.json",
@@ -508,23 +515,23 @@
       "sha256": "8224e443afc3ee77c69415a8f239df983c551f3b078543b175186a308f281af3"
     },
     {
-      "bytes": 2803,
+      "bytes": 3365,
       "class": "draft-state",
       "path": "stages/_project/drafts.json",
       "retention": "travel",
-      "sha256": "8a2141c3bfea11a050660dd562a2aee684d6b41a609e075bd5c2a70c021ebc46"
+      "sha256": "5deda7ef676e5484b8107d8152757cfde6b45ef654cc19541ea209bb13494e60"
     }
   ],
   "findings": [],
-  "fingerprint": "2db31e8f50d45b5e03f5a715cb36e2f0cd359aa93ea96fbad81effd5e927c350",
-  "generatedAt": "2026-10-24T11:28:54Z",
+  "fingerprint": "9ba5c0fc4b59e6665ef38ee09bcadebc2fc0e5364cda762bced65e870e90d806",
+  "generatedAt": "2026-10-24T11:35:06Z",
   "rampCommit": null,
   "retentionPolicyVersion": 3,
   "schemaVersion": 3,
   "totals": {
-    "bytes": 187606,
-    "excludedBytes": 60819,
+    "bytes": 189108,
+    "excludedBytes": 61018,
     "excludedFiles": 11,
-    "files": 60
+    "files": 61
   }
 }

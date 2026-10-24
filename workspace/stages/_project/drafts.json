@@ -3,9 +3,9 @@
     {
       "artifact_id": "SyntheticSource-20261023T234627679122Z",
       "body": {
-        "editedAt": "2026-10-24T11:28:32.756Z",
-        "editedBy": "Consultant A",
-        "notes": "Consultant A (Phase 04 handoff): reviewed the synthetic assessment; pricing has 2 discount schedules to confirm in Stage 04."
+        "editedAt": "2026-10-24T11:34:58.981Z",
+        "editedBy": "Consultant B",
+        "notes": "Consultant A (Phase 04 handoff): reviewed the synthetic assessment; pricing has 2 discount schedules to confirm in Stage 04.\nConsultant B: confirmed both discount schedules in the synthetic snapshot."
       },
       "created_at": "2026-10-24T01:26:43Z",
       "customer_key": "chestnut-ramp1-poc",
@@ -50,14 +50,24 @@
           "revision": 4,
           "saved_at": "2026-10-24T11:28:32Z",
           "user_identity": "Assessment team"
+        },
+        {
+          "body": {
+            "editedAt": "2026-10-24T11:34:58.981Z",
+            "editedBy": "Consultant B",
+            "notes": "Consultant A (Phase 04 handoff): reviewed the synthetic assessment; pricing has 2 discount schedules to confirm in Stage 04.\nConsultant B: confirmed both discount schedules in the synthetic snapshot."
+          },
+          "revision": 5,
+          "saved_at": "2026-10-24T11:34:58Z",
+          "user_identity": "Assessment team"
         }
       ],
-      "revision": 4,
+      "revision": 5,
       "scope_key": "c090a8ed4a30387c7b5cea5053dfbd80dbad9adcb40f3ebf72950d865f365d08",
       "source_fingerprint": "d41424474192dea495cb863c9a899d3bc4aa195cb7ddbab14d2f6e4e0ac83f4a",
       "stage": "01-assess",
       "target_org_id": "",
-      "updated_at": "2026-10-24T11:28:32Z",
+      "updated_at": "2026-10-24T11:34:58Z",
       "user_identity": "Assessment team"
     }
   ],

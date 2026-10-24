@@ -4,17 +4,17 @@
     "01-assess": {
       "gates": {
         "REVIEWED": {
-          "actor": "Consultant A",
+          "actor": "Consultant B",
           "customerKey": "chestnut-ramp1-poc",
           "details": {
             "decision": "approved",
-            "signoff": "gates/signoffs/01-assess/reviewed/998ed89c-e02f-49bf-b84d-8c36afa82ef7.json"
+            "signoff": "gates/signoffs/01-assess/reviewed/fd5b6892-4e50-4f7f-a7bb-331e850d8f12.json"
           },
-          "eventId": "76282bc6-763b-4c7f-ac67-155bea44cdc7",
+          "eventId": "03df9b6f-3b33-4112-8291-0880bcac516d",
           "evidenceHash": "d41424474192dea495cb863c9a899d3bc4aa195cb7ddbab14d2f6e4e0ac83f4a",
           "gate": "REVIEWED",
           "nextCondition": null,
-          "occurredAt": "2026-10-24T11:28:33Z",
+          "occurredAt": "2026-10-24T11:34:59Z",
           "schemaVersion": 1,
           "stageId": "01-assess",
           "state": "approved"
