@@ -3,9 +3,9 @@
     {
       "artifact_id": "SyntheticSource-20261023T234627679122Z",
       "body": {
-        "editedAt": "2026-10-24T01:26:43.335Z",
-        "editedBy": "Consultant A",
-        "notes": "Consultant A: synthetic POC review. Pricing and bundles look standard; confirm 2 discount schedules in Stage 04."
+        "editedAt": "2026-10-24T01:38:46.391Z",
+        "editedBy": "Consultant B",
+        "notes": "Consultant A: synthetic POC review. Pricing and bundles look standard; confirm 2 discount schedules in Stage 04.\nConsultant B: confirmed both discount schedules in the synthetic snapshot; handoff to Stage 02 next."
       },
       "created_at": "2026-10-24T01:26:43Z",
       "customer_key": "chestnut-ramp1-poc",
@@ -20,14 +20,24 @@
           "revision": 1,
           "saved_at": "2026-10-24T01:26:43Z",
           "user_identity": "Assessment team"
+        },
+        {
+          "body": {
+            "editedAt": "2026-10-24T01:38:46.391Z",
+            "editedBy": "Consultant B",
+            "notes": "Consultant A: synthetic POC review. Pricing and bundles look standard; confirm 2 discount schedules in Stage 04.\nConsultant B: confirmed both discount schedules in the synthetic snapshot; handoff to Stage 02 next."
+          },
+          "revision": 2,
+          "saved_at": "2026-10-24T01:38:46Z",
+          "user_identity": "Assessment team"
         }
       ],
-      "revision": 1,
+      "revision": 2,
       "scope_key": "c090a8ed4a30387c7b5cea5053dfbd80dbad9adcb40f3ebf72950d865f365d08",
       "source_fingerprint": "d41424474192dea495cb863c9a899d3bc4aa195cb7ddbab14d2f6e4e0ac83f4a",
       "stage": "01-assess",
       "target_org_id": "",
-      "updated_at": "2026-10-24T01:26:43Z",
+      "updated_at": "2026-10-24T01:38:46Z",
       "user_identity": "Assessment team"
     }
   ],
